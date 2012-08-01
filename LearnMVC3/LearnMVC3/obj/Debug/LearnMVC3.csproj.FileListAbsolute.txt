@@ -1,0 +1,7 @@
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\LearnMVC3.dll
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\LearnMVC3.pdb
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\EntityFramework.dll
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\EntityFramework.xml
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\obj\Debug\ResolveAssemblyReference.cache
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\obj\Debug\LearnMVC3.dll
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\obj\Debug\LearnMVC3.pdb

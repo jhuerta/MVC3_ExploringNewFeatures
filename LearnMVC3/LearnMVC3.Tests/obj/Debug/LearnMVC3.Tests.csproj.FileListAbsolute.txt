@@ -1,0 +1,5 @@
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\LearnMVC3.Tests.dll
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\LearnMVC3.Tests.pdb
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\LearnMVC3.Tests.dll
+C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\LearnMVC3.Tests.pdb
