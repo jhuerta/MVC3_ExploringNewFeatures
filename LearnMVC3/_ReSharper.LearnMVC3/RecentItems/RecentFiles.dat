@@ -10,8 +10,8 @@
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="405" fromTop="7" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/d:Logging/f:NLogger.cs" caret="960" fromTop="35" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="305" fromTop="7" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="425" fromTop="15" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="233" fromTop="12" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="610" fromTop="20" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="314" fromTop="14" />
   </RecentFiles>
   <RecentEdits>
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="405" fromTop="7" />
@@ -31,9 +31,10 @@
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="420" fromTop="13" />
     <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="372" fromTop="13" />
     <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="188" fromTop="9" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="346" fromTop="12" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="567" fromTop="21" />
     <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="208" fromTop="9" />
     <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="345" fromTop="15" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="440" fromTop="12" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="629" fromTop="22" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="550" fromTop="18" />
   </RecentEdits>
 </RecentFiles>
