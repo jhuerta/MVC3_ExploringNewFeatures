@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippet Format="1.0.0">
+    <Header>
+        <Title>Test Fixture Teardown Method</Title>
+        <Shortcut>testfixtureteardown</Shortcut>
+        <Description>Generate Test Fixture Teardown method</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>methodName</ID>
+                <ToolTip>The name of the Fixture Teardown method</ToolTip>
+                <Default>FixtureTearDown</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="csharp" Format="CData"><![CDATA[
+	[TestFixtureTearDown]
+    public void $methodName$()
+	{
+        $end$
+	}
+	]]>
+	</Code>
+    </Snippet>
+</CodeSnippet>

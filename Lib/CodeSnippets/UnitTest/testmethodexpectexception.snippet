@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippet Format="1.0.0">
+    <Header>
+        <Title>Test Method, ExpectedException</Title>
+        <Shortcut>testexpectedexception</Shortcut>
+        <Description>Generate Test method with ExpectedException</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal default="true">
+                <ID>name</ID>
+                <ToolTip>Method Name</ToolTip>
+                <Default>TestName</Default>
+            </Literal>
+            <Literal default="true">
+                <ID>expectedException</ID>
+                <ToolTip>ExpectedException</ToolTip>
+                <Default>ExceptionType</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="csharp" Format="CData"><![CDATA[
+	[Test]
+	[ExpectedException(typeof($expectedException$))]
+	public void $name$()
+	{
+		$end$
+	}]]>
+	</Code>
+    </Snippet>
+</CodeSnippet>
