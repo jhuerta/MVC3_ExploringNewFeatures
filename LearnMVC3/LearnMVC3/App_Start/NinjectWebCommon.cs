@@ -1,3 +1,4 @@
+using LearnMVC3.Infrastructure;
 using LearnMVC3.Infrastructure.Logging;
 
 [assembly: WebActivator.PreApplicationStartMethod(typeof(LearnMVC3.App_Start.NinjectWebCommon), "Start")]
@@ -56,6 +57,7 @@ namespace LearnMVC3.App_Start
         private static void RegisterServices(IKernel kernel)
         {
             kernel.Bind<ILogger>().To<NLogger>();
+            kernel.Bind<ITokenHandler>().To<FormsAuthTokenStore>();
         }        
     }
 }

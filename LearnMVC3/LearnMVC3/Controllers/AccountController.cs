@@ -5,12 +5,22 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
+using LearnMVC3.Infrastructure;
 using LearnMVC3.Models;
+using LearnMVC3.Tests;
 
 namespace LearnMVC3.Controllers
 {
-    public class AccountController : Controller
+    public class AccountController : ApplicationController
     {
+
+        private Users _users;
+        public AccountController() : this(new FormsAuthTokenStore()) { }
+        public AccountController(ITokenHandler tokenStore)
+            : base(tokenStore)
+        {
+            _users = new Users();
+        }
 
         //
         // GET: /Account/LogOn
@@ -24,41 +34,28 @@ namespace LearnMVC3.Controllers
         // POST: /Account/LogOn
 
         [HttpPost]
-        public ActionResult LogOn(LogOnModel model, string returnUrl)
+        public ActionResult LogOn(string userName, string password)
         {
-            if (ModelState.IsValid)
+            dynamic result = _users.Login(userName, password);
+            if (result.Authenticated)
             {
-                if (Membership.ValidateUser(model.UserName, model.Password))
-                {
-                    FormsAuthentication.SetAuthCookie(model.UserName, model.RememberMe);
-                    if (Url.IsLocalUrl(returnUrl) && returnUrl.Length > 1 && returnUrl.StartsWith("/")
-                        && !returnUrl.StartsWith("//") && !returnUrl.StartsWith("/\\"))
-                    {
-                        return Redirect(returnUrl);
-                    }
-                    else
-                    {
-                        return RedirectToAction("Index", "Home");
-                    }
-                }
-                else
-                {
-                    ModelState.AddModelError("", "The user name or password provided is incorrect.");
-                }
+                SetToken(result.User);
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                ViewBag.Message = result.Message;
             }
 
             // If we got this far, something failed, redisplay form
-            return View(model);
+            return View();
         }
 
-        //
-        // GET: /Account/LogOff
-
-        public ActionResult LogOff()
+        private void SetToken(dynamic user)
         {
-            FormsAuthentication.SignOut();
-
-            return RedirectToAction("Index", "Home");
+            var token = Guid.NewGuid().ToString();
+            _users.SetToken(token, user);
+            TokenStore.SetClientAccess(token);
         }
 
         //
@@ -72,28 +69,33 @@ namespace LearnMVC3.Controllers
         //
         // POST: /Account/Register
 
-        [HttpPost]
-        public ActionResult Register(RegisterModel model)
-        {
-            if (ModelState.IsValid)
-            {
-                // Attempt to register the user
-                MembershipCreateStatus createStatus;
-                Membership.CreateUser(model.UserName, model.Password, model.Email, null, null, true, null, out createStatus);
+        //
+        // GET: /Account/LogOff
 
-                if (createStatus == MembershipCreateStatus.Success)
-                {
-                    FormsAuthentication.SetAuthCookie(model.UserName, false /* createPersistentCookie */);
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    ModelState.AddModelError("", ErrorCodeToString(createStatus));
-                }
+        public ActionResult LogOff()
+        {
+            TokenStore.RemoveClientAccess();
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        [HttpPost]
+        public ActionResult Register(string email, string password, string confirmPassword)
+        {
+            var result = _users.Register(email, password, confirmPassword);
+
+            if (result.Success)
+            {
+                SetToken(result.User);
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                ViewBag.Message = result.Message;
             }
 
             // If we got this far, something failed, redisplay form
-            return View(model);
+            return View();
         }
 
         //
