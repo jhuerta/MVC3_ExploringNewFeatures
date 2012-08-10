@@ -22,16 +22,10 @@ namespace LearnMVC3.Controllers
             _users = new Users();
         }
 
-        //
-        // GET: /Account/LogOn
-
         public ActionResult LogOn()
         {
             return View();
         }
-
-        //
-        // POST: /Account/LogOn
 
         [HttpPost]
         public ActionResult LogOn(string userName, string password)
@@ -58,19 +52,10 @@ namespace LearnMVC3.Controllers
             TokenStore.SetClientAccess(token);
         }
 
-        //
-        // GET: /Account/Register
-
         public ActionResult Register()
         {
             return View();
         }
-
-        //
-        // POST: /Account/Register
-
-        //
-        // GET: /Account/LogOff
 
         public ActionResult LogOff()
         {
@@ -98,17 +83,11 @@ namespace LearnMVC3.Controllers
             return View();
         }
 
-        //
-        // GET: /Account/ChangePassword
-
         [Authorize]
         public ActionResult ChangePassword()
         {
             return View();
         }
-
-        //
-        // POST: /Account/ChangePassword
 
         [Authorize]
         [HttpPost]

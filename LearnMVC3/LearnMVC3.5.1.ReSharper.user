@@ -8,12 +8,55 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="309" fromTop="13" />
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="2200" fromTop="11" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="424" fromTop="10" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/d:Logging/f:ILogger.cs" caret="0" fromTop="0" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/d:Logging/f:NLogger.cs" caret="195" fromTop="8" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:AccountModel.cs" caret="0" fromTop="0" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Global.asax.cs" caret="1055" fromTop="22" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:packages.config" caret="0" fromTop="0" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:NLog.config" caret="625" fromTop="15" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="268" fromTop="0" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:Massive.cs" caret="4605" fromTop="0" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="821" fromTop="6" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="1518" fromTop="4" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ApplicationController.cs" caret="703" fromTop="20" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="1554" fromTop="9" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:FormsAuthTokenStore.cs" caret="669" fromTop="10" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="3812" fromTop="11" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/f:Web.config" caret="0" fromTop="0" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Web.config" caret="575" fromTop="6" />
     </RecentFiles>
     <RecentEdits>
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="424" fromTop="10" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ApplicationController.cs" caret="701" fromTop="14" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:Massive.cs" caret="17398" fromTop="0" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="499" fromTop="9" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="1148" fromTop="14" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="1113" fromTop="4" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="328" fromTop="3" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="2429" fromTop="12" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="3184" fromTop="1" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="1882" fromTop="15" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="1652" fromTop="14" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="2654" fromTop="15" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="2518" fromTop="11" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="2148" fromTop="7" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="825" fromTop="7" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="960" fromTop="15" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="923" fromTop="2" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="1348" fromTop="5" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="1677" fromTop="10" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="2408" fromTop="12" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="2530" fromTop="7" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="1518" fromTop="4" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="909" fromTop="8" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="1623" fromTop="11" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="1452" fromTop="7" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="1546" fromTop="4" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="2287" fromTop="6" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="2404" fromTop="2" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Web.config" caret="563" fromTop="6" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Web.config" caret="784" fromTop="10" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Web.config" caret="846" fromTop="14" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -27,4 +70,29 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:LearnMVC3.Tests.Users">
+      <Item value="Single`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="catch" priority="0" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="ex" priority="0" />
+      <Item value="validPassword" priority="2" />
+      <Item value="anyValidEmail" priority="0" />
+      <Item value="Assert`0" priority="0" />
+      <Item value="result" priority="0" />
+      <Item value="_users" priority="0" />
+      <Item value="validEmail" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsFalse`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

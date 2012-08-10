@@ -9,53 +9,71 @@ namespace LearnMVC3.Tests
     [TestFixture]
     public class MembershipSpecs : TestBase
     {
-        string anyValidEmail = "name.lastname@domain.com";
+        string validEmail = "name.lastname@domain.com";
         static string validPassword = "validPassword";
-        string confirmationPassword = validPassword;
-        private Users _users;
-        private DynamicModel _db;
+
+        private readonly Users _users;
 
         public MembershipSpecs()
         {
             this.Describes("User Describes");
             _users = new Users();
-            _db = new DynamicModel("Users","Users","ID");
         }
 
         [SetUp]
         public void Init()
         {
-            _db.Delete();
-            
-            Assert.AreEqual(0, _db.All().Count());
+            _users.Delete();
+
+            Assert.AreEqual(0, _users.All().Count());
         }
+
+        [Test]
+        public void DeleteAll()
+        {
+            _users.Register(validEmail, validPassword, validPassword);
+
+            Assert.AreEqual(1, _users.All().Count());
+
+            _users.Delete();
+
+            Assert.AreEqual(0, _users.All().Count());
+        } 
 
         [Test]
         public void user_should_be_saved_on_register()
         {
-            var result = _users.Register("test@test.com", "password", "password");
+            _users.Register(validEmail, validPassword, validPassword);
 
-            Assert.AreEqual(1, _db.All().Count());
+            Assert.AreEqual(1, _users.All().Count());
         }
 
 
         [Test]
         public void duplicate_email_should_return_message()
         {
-            _users.Register(anyValidEmail, validPassword, validPassword);
-            var result = _users.Register(anyValidEmail, validPassword, validPassword);
+            _users.Register(validEmail, validPassword, validPassword);
+            var result = _users.Register(validEmail, validPassword, validPassword);
             var duplicatedEmail = "This email already exist in our sytem";
             Assert.AreEqual(result.Message,duplicatedEmail );
+        }
 
+        [Test]
+        public void duplicate_email_is_not_allowed()
+        {
+            _users.Register(validEmail, validPassword, validPassword);
+
+            var result = _users.Register(validEmail, validPassword, validPassword);
+
+            Assert.IsFalse(result.Success);
         }
 
         [Test]
         public void valid_email_and_passwords_should_register_user()
         {
-            this.IsPending();
-            //var result = _users.Register(anyValidEmail, validPassword, validPassword);
-            //var user = _users.GetByUserNameAndPassword(anyValidEmail,validPassword);
-            //Assert.AreEqual(user.Username, anyValidEmail);
+            _users.Register(validEmail, validPassword, validPassword);
+            var user = Users.FindByEmail(validEmail);
+            Assert.AreEqual(user.Email, validEmail);
         }
 
 
@@ -64,7 +82,7 @@ namespace LearnMVC3.Tests
         {
             var emailLessThan6chars = "a@b.c";
 
-            var result = _users.Register(emailLessThan6chars, validPassword, confirmationPassword);
+            var result = _users.Register(emailLessThan6chars, validPassword, validPassword);
 
             Assert.That(result.Success,Is.False);
         }
@@ -75,7 +93,7 @@ namespace LearnMVC3.Tests
         {
             var passwordLessThan6Chars = "one";
 
-            var result = _users.Register(anyValidEmail, passwordLessThan6Chars, passwordLessThan6Chars);
+            var result = _users.Register(validEmail, passwordLessThan6Chars, passwordLessThan6Chars);
 
             Assert.That(result.Success, Is.False);
         }
@@ -86,17 +104,13 @@ namespace LearnMVC3.Tests
         {
             var differentPassword = validPassword + "_this_is_Different";
             
-            var result = _users.Register(anyValidEmail, validPassword, differentPassword);
+            var result = _users.Register(validEmail, validPassword, differentPassword);
 
             Assert.That(result.Success, Is.False);
         }
 
 
-        [Test]
-        public void email_mus_be_unique()
-        {
-            this.IsPending();
-        }
+
 
     }
 }

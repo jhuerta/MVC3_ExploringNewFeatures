@@ -25,9 +25,13 @@ namespace LearnMVC3.Tests
                     result.Success = true;
                     result.Message = "Thanks for signing up!";
                 }
-                catch (SqlCeException ex)
+                catch (SqlCeException)
                 {
                     result.Message = "This email already exist in our sytem";
+                }
+                catch(Exception ex)
+                {
+                    result.Message = "Exception: " + ex.Message;
                 }
             }
 
@@ -41,7 +45,7 @@ namespace LearnMVC3.Tests
 
         public void SetToken(string token, dynamic user)
         {
-            this.Update(new {Token = token}, user.ID);
+            this.Update(new { Token = token }, user.ID);
         }
 
         public static string Hash(string userPassword)
@@ -67,6 +71,12 @@ namespace LearnMVC3.Tests
         {
             var db = new Users();
             return db.Single(where: "Token = @0", args: token);
+        }
+
+        public static dynamic FindByEmail(string email)
+        {
+            var db = new Users();
+            return db.Single(where: "Email = @0", args: email);
         }
     }
 }

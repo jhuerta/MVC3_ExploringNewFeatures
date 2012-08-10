@@ -1,50 +1,58 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Web.config" caret="689" fromTop="18" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Readme/f:glimpse.readme.txt" caret="775" fromTop="21" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:NLog.config" caret="868" fromTop="22" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Global.asax.cs" caret="1180" fromTop="31" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/d:Logging/f:ILogger.cs" caret="87" fromTop="4" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Start/f:NinjectWebCommon.cs" caret="1475" fromTop="20" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="405" fromTop="7" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/d:Logging/f:NLogger.cs" caret="960" fromTop="35" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:AccountModel.cs" caret="0" fromTop="0" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:FakeTokenStore.cs" caret="191" fromTop="2" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:FormsAuthTokenStore.cs" caret="378" fromTop="13" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="1220" fromTop="8" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:App.config" caret="253" fromTop="7" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Start/f:NinjectWebCommon.cs" caret="2110" fromTop="14" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="1541" fromTop="5" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="610" fromTop="19" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1880" fromTop="6" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Massive.cs" caret="4041" fromTop="17" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:Membership.cs" caret="126" fromTop="7" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:Massive.cs" caret="10392" fromTop="11" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ApplicationController.cs" caret="502" fromTop="11" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Web.config" caret="564" fromTop="11" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:App.config" caret="58" fromTop="2" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="1377" fromTop="0" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="932" fromTop="0" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="2646" fromTop="11" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Account/f:LogOn.cshtml" caret="498" fromTop="11" />
   </RecentFiles>
   <RecentEdits>
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="252" fromTop="11" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Global.asax.cs" caret="1173" fromTop="30" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Global.asax.cs" caret="326" fromTop="5" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/d:Logging/f:NLogger.cs" caret="169" fromTop="8" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:NLog.config" caret="400" fromTop="8" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:NLog.config" caret="894" fromTop="33" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:NLog.config" caret="864" fromTop="33" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:NLog.config" caret="864" fromTop="24" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:NLog.config" caret="868" fromTop="22" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="420" fromTop="13" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1906" fromTop="13" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="728" fromTop="15" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="440" fromTop="12" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="629" fromTop="22" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:TestBase.cs" caret="550" fromTop="18" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1903" fromTop="25" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1765" fromTop="29" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="538" fromTop="18" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1356" fromTop="24" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1714" fromTop="22" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="534" fromTop="18" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1894" fromTop="8" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1529" fromTop="13" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1360" fromTop="15" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1020" fromTop="10" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="536" fromTop="12" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="428" fromTop="12" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Massive.cs" caret="32438" fromTop="803" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1903" fromTop="19" />
-    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:MembershipSpecs.cs" caret="1906" fromTop="7" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="1765" fromTop="37" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="1364" fromTop="24" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="2333" fromTop="24" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="2834" fromTop="17" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="2549" fromTop="9" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Web.config" caret="749" fromTop="15" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="457" fromTop="12" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Users.cs" caret="341" fromTop="8" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:Massive.cs" caret="10539" fromTop="12" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Web.config" caret="564" fromTop="11" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="0" fromTop="13" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="0" fromTop="22" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="0" fromTop="26" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="0" fromTop="29" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="6414" fromTop="26" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="6414" fromTop="16" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="6414" fromTop="12" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="6414" fromTop="24" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="6414" fromTop="0" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="6414" fromTop="23" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="6414" fromTop="7" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="6414" fromTop="0" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="6414" fromTop="0" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="6414" fromTop="16" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="6414" fromTop="26" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="1748" fromTop="20" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="1849" fromTop="22" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="2149" fromTop="18" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="944" fromTop="20" />
   </RecentEdits>
 </RecentFiles>

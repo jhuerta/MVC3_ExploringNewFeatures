@@ -31,21 +31,11 @@ namespace LearnMVC3.Tests.Functionals
         public void Init()
         {
             _controller = new AccountController(new FakeTokenStore());
+
             _users.Delete();
 
             Assert.AreEqual(0, _users.All().Count());
-        }
-
-        [Test]
-        public void DeleteAll()
-        {
-            var result = _users.Register(validEmail, validPassword, validPassword);
-            Assert.AreEqual(1, _users.All().Count());
-
-            _users.Delete();
-            
-            Assert.AreEqual(0, _users.All().Count());
-        }        
+        }       
         
         [Test]
         public void register_action_persists_user_in_database()
@@ -58,18 +48,16 @@ namespace LearnMVC3.Tests.Functionals
         [Test]
         public void register_action_should_redirect_with_valid_email_password()
         {
-
-
             var result = _controller.Register(validEmail, validPassword, validPassword);
 
             Assert.IsInstanceOf<RedirectToRouteResult>(result);
         }
 
-
         [Test]
         public void changes_token_with_dual_logon()
         {
             _controller.Register(validEmail, validPassword, validPassword);
+
             _controller.LogOn(validEmail,validPassword);
 
             var token1 = _users.Single(where: "email =@0", args: validEmail).Token;
@@ -88,14 +76,14 @@ namespace LearnMVC3.Tests.Functionals
             _controller.Register(validEmail, validPassword, validPassword);
 
             _controller.LogOn(validEmail, validPassword);
+
             Assert.True(_controller.IsLoggedIn);
 
             var secondUser = new AccountController(new FakeTokenStore());
+
             secondUser.LogOn(validEmail, validPassword);
 
             Assert.False(_controller.IsLoggedIn);
         }
-
-
     }
 } 
