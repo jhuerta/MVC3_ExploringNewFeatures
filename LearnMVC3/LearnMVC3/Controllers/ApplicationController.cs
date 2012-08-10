@@ -24,7 +24,7 @@ namespace LearnMVC3.Controllers
                 var token = TokenStore.GetToken();
                 if(!String.IsNullOrEmpty(token))
                 {
-                    _currentUser = Users.FindByToken(token);
+                    _currentUser = UserModel.FindByToken(token);
 
                     if(_currentUser == null)
                     {

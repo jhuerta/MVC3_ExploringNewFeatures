@@ -100,7 +100,9 @@
     <Compile Include="Infrastructure\Logging\NLogger.cs" />
     <Compile Include="Infrastructure\Massive.cs" />
     <Compile Include="Model\AccountModel.cs" />
-    <Compile Include="Model\Users.cs" />
+    <Compile Include="Model\LogOnModel.cs" />
+    <Compile Include="Model\RegisterModel.cs" />
+    <Compile Include="Model\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

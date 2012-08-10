@@ -15,7 +15,7 @@ namespace LearnMVC3.Tests.Functionals
     [TestFixture]
     class AccountsControllerTests : TestBase
     {
-        private Users _users;
+        private UserModel _userModel;
         private string validEmail = "test@test.com";
         private string validPassword = "secretPassword";
         private AccountController _controller;
@@ -24,7 +24,7 @@ namespace LearnMVC3.Tests.Functionals
         {
             this.Describes("User Authentication");
 
-            _users = new Users();
+            _userModel = new UserModel();
         }
 
         [SetUp]
@@ -32,17 +32,17 @@ namespace LearnMVC3.Tests.Functionals
         {
             _controller = new AccountController(new FakeTokenStore());
 
-            _users.Delete();
+            _userModel.Delete();
 
-            Assert.AreEqual(0, _users.All().Count());
+            Assert.AreEqual(0, _userModel.All().Count());
         }       
         
         [Test]
         public void register_action_persists_user_in_database()
         {
-            Assert.AreEqual(0, _users.All().Count());
-            var result = _users.Register(validEmail, validPassword, validPassword);
-            Assert.AreEqual(1, _users.All().Count());
+            Assert.AreEqual(0, _userModel.All().Count());
+            var result = _userModel.Register(validEmail, validPassword, validPassword);
+            Assert.AreEqual(1, _userModel.All().Count());
         }
 
         [Test]
@@ -60,11 +60,11 @@ namespace LearnMVC3.Tests.Functionals
 
             _controller.LogOn(validEmail,validPassword);
 
-            var token1 = _users.Single(where: "email =@0", args: validEmail).Token;
+            var token1 = _userModel.Single(where: "email =@0", args: validEmail).Token;
 
             _controller.LogOn(validEmail, validPassword);
 
-            var token2 = _users.Single(where: "email =@0", args: validEmail).Token;
+            var token2 = _userModel.Single(where: "email =@0", args: validEmail).Token;
 
             Assert.AreNotEqual(token1,token2);
         }

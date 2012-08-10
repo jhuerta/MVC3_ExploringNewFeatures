@@ -14,12 +14,12 @@ namespace LearnMVC3.Controllers
     public class AccountController : ApplicationController
     {
 
-        private Users _users;
+        private UserModel _userModel;
         public AccountController() : this(new FormsAuthTokenStore()) { }
         public AccountController(ITokenHandler tokenStore)
             : base(tokenStore)
         {
-            _users = new Users();
+            _userModel = new UserModel();
         }
 
         public ActionResult LogOn()
@@ -28,9 +28,9 @@ namespace LearnMVC3.Controllers
         }
 
         [HttpPost]
-        public ActionResult LogOn(string userName, string password)
+        public ActionResult LogOn(string email, string password)
         {
-            dynamic result = _users.Login(userName, password);
+            dynamic result = _userModel.Login(email, password);
             if (result.Authenticated)
             {
                 SetToken(result.User);
@@ -48,7 +48,7 @@ namespace LearnMVC3.Controllers
         private void SetToken(dynamic user)
         {
             var token = Guid.NewGuid().ToString();
-            _users.SetToken(token, user);
+            _userModel.SetToken(token, user);
             TokenStore.SetClientAccess(token);
         }
 
@@ -67,7 +67,7 @@ namespace LearnMVC3.Controllers
         [HttpPost]
         public ActionResult Register(string email, string password, string confirmPassword)
         {
-            var result = _users.Register(email, password, confirmPassword);
+            var result = _userModel.Register(email, password, confirmPassword);
 
             if (result.Success)
             {

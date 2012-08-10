@@ -6,9 +6,9 @@ using System.Text;
 
 namespace LearnMVC3.Tests
 {
-    public class Users : DynamicModel
+    public class UserModel : DynamicModel
     {
-        public Users():base("Users", "Users", "Id"){}
+        public UserModel():base("Users", "Users", "Id"){}
         
         public dynamic Register(string email, string password, string confirmPassword)
         {
@@ -69,13 +69,13 @@ namespace LearnMVC3.Tests
 
         public static dynamic FindByToken(string token)
         {
-            var db = new Users();
+            var db = new UserModel();
             return db.Single(where: "Token = @0", args: token);
         }
 
         public static dynamic FindByEmail(string email)
         {
-            var db = new Users();
+            var db = new UserModel();
             return db.Single(where: "Email = @0", args: email);
         }
     }
