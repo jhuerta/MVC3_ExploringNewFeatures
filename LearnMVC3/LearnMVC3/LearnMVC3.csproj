@@ -148,6 +148,11 @@
     <Content Include="Public\javascripts\jquery.validate.min.js" />
     <Content Include="Public\javascripts\modernizr-1.7.js" />
     <Content Include="Public\javascripts\modernizr-1.7.min.js" />
+    <Content Include="Public\stylesheets\blueprint\ie.css" />
+    <Content Include="Public\stylesheets\blueprint\plugins\fancy-type\screen %281%29.css" />
+    <Content Include="Public\stylesheets\blueprint\plugins\fancy-type\screen.css" />
+    <Content Include="Public\stylesheets\blueprint\print.css" />
+    <Content Include="Public\stylesheets\blueprint\screen.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -186,6 +191,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
