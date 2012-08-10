@@ -1,3 +1,6 @@
 [submodule "mvc3"]
 	path = mvc3
 	url = git://github.com/tekpub/mvc3.git
+[submodule "TekPub_MVC3_VidPub"]
+	path = TekPub_MVC3_VidPub
+	url = git://github.com/tekpub/mvc3.git
