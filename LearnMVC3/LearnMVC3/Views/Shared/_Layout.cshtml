@@ -1,27 +1,111 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>@ViewBag.Title</title>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+    <title>LearnMVC</title>
+
     <script type="text/javascript" src="//use.typekit.net/peg4qff.js"></script>
-    <script type="text/javascript"> try { Typekit.load(); } catch (e) { }</script>
+    <script type="text/javascript">        try { Typekit.load(); } catch (e) { }</script>
 
-    <!-- Framework CSS -->
-    <link rel="stylesheet" href="../../public/stylesheets/Site.css" type="text/css">
-    <link rel="stylesheet" href="../../public/stylesheets/blueprint/screen.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="../../public/stylesheets/blueprint/print.css" type="text/css" media="print">
-    <!--[if lt IE 8]><link rel="stylesheet" href="../../public/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/css/reset.css")" />
+    <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/css/text.css")" />
+    <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/css/960.css")" />
+    <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/css/style.css")" />
+    <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/styles/default.css")"/>
+    <link rel='stylesheet'  type="text/css" href="@Href("../../public/stylesheets/snapshot/css/admin-bar.css?ver=3.4.1")" id='admin-bar-css' />
+    <link href="@Href("../../public/stylesheets/snapshot/css/shortcodes.css")" rel="stylesheet" type="text/css" />
 
-    <!-- Import fancy-type plugin for the sample page. -->
-    <link rel="stylesheet" href="../../public/stylesheets/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <!--[if lte IE 6]>
+	<script defer type="text/javascript" src="public/stylesheets/snapshot/js/pngfix.js"></script>
+	<![endif]-->
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js'></script>
 </head>
-<body>
-    <div class="container">
-        <section id="main">
-            @RenderBody()
-        </section>
-        <footer>
-        </footer>
-    </div>
+
+<body class="home blog logged-in admin-bar chrome">
+
+    <div id="wrap">
+
+        <div id="header" class="fullspan">
+            <div class="container_16">
+                <div class="grid_6" id="logo">
+                    <h1><a href="http://www.facebook.com" title="Return to the the frontpage">Learn MVC3 !</a></h1>
+                </div>
+
+                <div class="grid_8">
+                    <h1 class="title"><a href="http://mail.google.com" title="Home">LearnMVC3 - Other Title</a></h1>
+                    <p class="description"> This is the description</p>
+                </div>
+
+                <div id="tagline">
+                    <p> ... the place to be</p>
+                </div>
+            </div><!-- /container_16 -->   
+        </div><!-- /header -->
+
+        <div id="nav" class="fullspan">
+            <div class="container_16">
+                <div class="grid_12">
+                    <ul>
+                        <li class="current_page_item"><a href="http://www.yahoo.com">Link 1</a></li>
+                        <li class="page_item page-item-2"><a href="http://www.google.com">Link 2</a></li>
+                    </ul>
+                </div>
+                <div class="grid_4 rss">
+                    <ul>
+                        <li><a href="http://localhost:88/wordpress/?feed=rss2" title="Subscribe to the RSS feed">
+                            Subscribe to this site</a></li>
+                    </ul>
+                </div>
+            </div><!-- /container_16 -->
+        </div>
+
+        <div id="content" class="fullspan">
+            <div class="container_16 clearfix">
+                <div id="leftcontent" class="grid_12">
+                    @RenderBody()
+                </div><!-- /leftcontent -->
+
+                <div class="grid_4 omega">
+                    <div id="sidebar">
+                        <div id="largewidget" class="widgetlist alpha grid_4">
+ 
+                            <div class="widget">
+                                <h3 class="hl"> Group 1</h3>
+                                <ul>
+                                    <li><a href="http://localhost:88/wordpress/?p=1" title="Hello world!">Subgroup 1!</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="widget">
+                                <h3 class="hl"> Group 2 </h3>
+                                <ul>
+                                    <li><a href="http://localhost:88/wordpress/?p=1" title="Hello world!">Subgroup 2!</a></li>
+                                </ul>
+                            </div>
+
+                        </div> <!-- /largewidget -->
+                    </div><!-- /sidebar -->
+                </div> <!-- /grid_4 -->
+            </div> <!-- /container_16 -->    
+        </div> <!-- /content -->
+
+        <div id="footer" class="fullspan">
+            <div class="container_16">
+                <div class="grid_8 powered">
+                    <p>
+                        &copy; Learn MVC 2012</p>
+                </div>
+                <div class="grid_8 omega credit">
+                    <p>
+                        <a href="http://www.woothemes.com">Theme</a> by <a href="http://www.woothemes.com"
+                            title="WooThemes - Premium WordPress Themes">
+                            <img src="@Href("../../public/stylesheets/snapshot/images/woothemes.png")" /></a></p>
+                </div><!-- /grid_8 -->
+            </div> <!-- /container_16 -->
+        </div> <!-- /footer -->
+
+    </div> <!-- /wrap -->
+
 </body>
 </html>

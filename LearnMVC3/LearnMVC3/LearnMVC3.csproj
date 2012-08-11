@@ -153,6 +153,80 @@
     <Content Include="Public\stylesheets\blueprint\plugins\fancy-type\screen.css" />
     <Content Include="Public\stylesheets\blueprint\print.css" />
     <Content Include="Public\stylesheets\blueprint\screen.css" />
+    <Content Include="Public\stylesheets\snapshot\css\960.css" />
+    <Content Include="Public\stylesheets\snapshot\css\admin-bar.css" />
+    <Content Include="Public\stylesheets\snapshot\css\compressed\960.css" />
+    <Content Include="Public\stylesheets\snapshot\css\compressed\reset.css" />
+    <Content Include="Public\stylesheets\snapshot\css\compressed\text.css" />
+    <Content Include="Public\stylesheets\snapshot\css\reset.css" />
+    <Content Include="Public\stylesheets\snapshot\css\shortcodes.css" />
+    <Content Include="Public\stylesheets\snapshot\css\style.css" />
+    <Content Include="Public\stylesheets\snapshot\css\text.css" />
+    <Content Include="Public\stylesheets\snapshot\images\woothemes.png" />
+    <Content Include="Public\stylesheets\snapshot\js\ajaxupload.js" />
+    <Content Include="Public\stylesheets\snapshot\js\colorpicker.js" />
+    <Content Include="Public\stylesheets\snapshot\js\custom_menu_dynamic_items.js" />
+    <Content Include="Public\stylesheets\snapshot\js\custom_menu_initial_items.js" />
+    <Content Include="Public\stylesheets\snapshot\js\jquery.autocomplete.js" />
+    <Content Include="Public\stylesheets\snapshot\js\jquery.maskedinput-1.2.2.js" />
+    <Content Include="Public\stylesheets\snapshot\js\nicEdit.js" />
+    <Content Include="Public\stylesheets\snapshot\js\php.js" />
+    <Content Include="Public\stylesheets\snapshot\js\pngfix.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\editor_plugin.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\js\column-control.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\js\tab-control.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\abbr.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\box.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\button.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\column.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\contactform.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\digg.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\fblike.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\fbshare.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\google_plusone.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\ilink.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\linkedin_share.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\ordered_list.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\pinterest.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\quote.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\related.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\social_icon.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\stumbleupon.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\tab.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\toggle.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\tweetmeme.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\twitter.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\twitter_follow.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\typography.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcode-generator\shortcodes\unordered_list.js" />
+    <Content Include="Public\stylesheets\snapshot\js\shortcodes.js" />
+    <Content Include="Public\stylesheets\snapshot\js\tumblog-ajax.js" />
+    <Content Include="Public\stylesheets\snapshot\js\ui.datepicker.js" />
+    <Content Include="Public\stylesheets\snapshot\js\woo-admin-interface.js" />
+    <Content Include="Public\stylesheets\snapshot\js\woo-custom-fields.js" />
+    <Content Include="Public\stylesheets\snapshot\js\woo-medialibrary-uploader.js" />
+    <Content Include="Public\stylesheets\snapshot\js\woo-scripts.js" />
+    <Content Include="Public\stylesheets\snapshot\js\woo-typography-preview.js" />
+    <Content Include="Public\stylesheets\snapshot\styles\coolblue.css" />
+    <Content Include="Public\stylesheets\snapshot\styles\coolblue\bottombg.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\coolblue\footerbg.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\coolblue\header.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\coolblue\logo.png" />
+    <Content Include="Public\stylesheets\snapshot\styles\coolblue\navbg.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\default.css" />
+    <Content Include="Public\stylesheets\snapshot\styles\default\bottombg.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\default\footerbg.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\default\header.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\default\logo.png" />
+    <Content Include="Public\stylesheets\snapshot\styles\default\navbg.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\default\stepsbg.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\limefresh.css" />
+    <Content Include="Public\stylesheets\snapshot\styles\limefresh\bottombg.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\limefresh\footerbg.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\limefresh\header.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\limefresh\logo.png" />
+    <Content Include="Public\stylesheets\snapshot\styles\limefresh\navbg.jpg" />
+    <Content Include="Public\stylesheets\snapshot\styles\limefresh\stepsbg.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -192,6 +266,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <None Include="Public\stylesheets\snapshot\js\shortcode-generator\dialog.php" />
+    <None Include="Public\stylesheets\snapshot\js\shortcode-generator\js\dialog-js.php" />
+    <None Include="Public\stylesheets\snapshot\js\shortcode-generator\preview-shortcode-external.php" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
