@@ -267,9 +267,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="App_Code\HTMLHelpers.cshtml" />
     <None Include="Public\stylesheets\snapshot\js\shortcode-generator\dialog.php" />
     <None Include="Public\stylesheets\snapshot\js\shortcode-generator\js\dialog-js.php" />
     <None Include="Public\stylesheets\snapshot\js\shortcode-generator\preview-shortcode-external.php" />
+    <Content Include="Views\Home\_HomeLayout.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

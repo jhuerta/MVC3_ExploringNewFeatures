@@ -1,18 +1,18 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head profile="http://gmpg.org/xfn/11">
-    <title>LearnMVC</title>
+    <title>@ViewBag.Title</title>
 
     <script type="text/javascript" src="//use.typekit.net/peg4qff.js"></script>
     <script type="text/javascript">        try { Typekit.load(); } catch (e) { }</script>
 
-    <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/css/reset.css")" />
-    <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/css/text.css")" />
-    <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/css/960.css")" />
-    <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/css/style.css")" />
+    @HTMLHelpers.CSS_snapshot_css("reset")
+    @HTMLHelpers.CSS_snapshot_css("960")
+    @HTMLHelpers.CSS_snapshot_css("style")
+    @HTMLHelpers.CSS_snapshot_css("text")
+    @HTMLHelpers.CSS_snapshot_css("shortcodes")
     <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/styles/default.css")"/>
     <link rel='stylesheet'  type="text/css" href="@Href("../../public/stylesheets/snapshot/css/admin-bar.css?ver=3.4.1")" id='admin-bar-css' />
-    <link href="@Href("../../public/stylesheets/snapshot/css/shortcodes.css")" rel="stylesheet" type="text/css" />
 
     <link rel="shortcut icon" href="/favicon.ico" />
     <!--[if lte IE 6]>
@@ -38,7 +38,7 @@
                 </div>
 
                 <div id="tagline">
-                    <p> ... the place to be</p>
+                    <p> ... @ViewBag.Title</p>
                 </div>
             </div><!-- /container_16 -->   
         </div><!-- /header -->
@@ -63,6 +63,7 @@
         <div id="content" class="fullspan">
             <div class="container_16 clearfix">
                 <div id="leftcontent" class="grid_12">
+                    @RenderSection("instructions");
                     @RenderBody()
                 </div><!-- /leftcontent -->
 
@@ -109,3 +110,4 @@
 
 </body>
 </html>
+

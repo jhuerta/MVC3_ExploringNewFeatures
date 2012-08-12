@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "_HomeLayout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>This is the Home Layout!</h2>
+
+<h4>Starting the Render Body</h4>
+
+@RenderBody()
+
+<h4>Finishing the Render Body</h4>
+
+
+@section instructions
+{
+
+    <h2>This is the section from index! - Sections are defined in Layout, if the page uses a layout, or in the page itself if there is no layout.</h2>
+}
