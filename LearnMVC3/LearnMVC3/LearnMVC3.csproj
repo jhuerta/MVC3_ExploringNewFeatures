@@ -95,12 +95,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\DynamicRoute.cs" />
     <Compile Include="Infrastructure\FormsAuthTokenStore.cs" />
+    <Compile Include="Infrastructure\LearnMVC3BaseViewPage.cs" />
     <Compile Include="Infrastructure\Logging\ILogger.cs" />
     <Compile Include="Infrastructure\Logging\NLogger.cs" />
     <Compile Include="Infrastructure\Massive.cs" />
     <Compile Include="Model\AccountModel.cs" />
     <Compile Include="Model\LogOnModel.cs" />
+    <Compile Include="Model\Quotes.cs" />
     <Compile Include="Model\RegisterModel.cs" />
     <Compile Include="Model\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -267,7 +270,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="App_Code\HTMLHelpers.cshtml" />
+    <Content Include="App_Code\HTML.cshtml" />
+    <Content Include="App_Code\URL.cshtml" />
+    <Content Include="App_Code\Snippets.cshtml" />
+    <Content Include="App_Code\_quote.cshtml" />
+    <Content Include="App_Code\Quotes.cshtml" />
     <None Include="Public\stylesheets\snapshot\js\shortcode-generator\dialog.php" />
     <None Include="Public\stylesheets\snapshot\js\shortcode-generator\js\dialog-js.php" />
     <None Include="Public\stylesheets\snapshot\js\shortcode-generator\preview-shortcode-external.php" />
