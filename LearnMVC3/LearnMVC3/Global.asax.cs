@@ -22,6 +22,12 @@ namespace LearnMVC3
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                "About", // Route name
+                "about/{id}", // URL with parameters
+                new { controller = "Home", action = "About", id = UrlParameter.Optional } // Parameter defaults
+                );
+
+            routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults

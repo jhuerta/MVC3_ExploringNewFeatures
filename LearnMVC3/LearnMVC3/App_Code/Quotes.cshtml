@@ -1,0 +1,24 @@
+﻿@functions
+{
+
+    public static HtmlString Scrub(string formattedString)
+    {
+        return new HtmlString(formattedString);
+    }
+    
+    public static string FormatQuote(string quote)
+    {
+        var separator = new string[] {"---"};;
+        var stems = quote.Split(separator, StringSplitOptions.RemoveEmptyEntries);
+        var firstPart = stems[0];
+        var secondPart = stems[1];
+        return firstPart + "<br/> ---<b>" + secondPart + "</b>";
+    }
+
+}
+@helper User(string quote)
+{
+    <div class="quote">
+        @Scrub(@FormatQuote(@quote))
+    </div>
+}

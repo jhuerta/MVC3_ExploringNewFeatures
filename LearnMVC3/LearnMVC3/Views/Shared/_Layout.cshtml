@@ -6,20 +6,20 @@
     <script type="text/javascript" src="//use.typekit.net/peg4qff.js"></script>
     <script type="text/javascript">        try { Typekit.load(); } catch (e) { }</script>
 
-    @HTMLHelpers.CSS_snapshot_css("reset")
-    @HTMLHelpers.CSS_snapshot_css("960")
-    @HTMLHelpers.CSS_snapshot_css("style")
-    @HTMLHelpers.CSS_snapshot_css("text")
-    @HTMLHelpers.CSS_snapshot_css("shortcodes")
+    @HTML.CSS_snapshot_css("reset")
+    @HTML.CSS_snapshot_css("960")
+    @HTML.CSS_snapshot_css("style")
+    @HTML.CSS_snapshot_css("text")
+    @HTML.Script("jquery_cycle.js");
+    @HTML.CSS_snapshot_css("shortcodes")
     <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/styles/default.css")"/>
     <link rel='stylesheet'  type="text/css" href="@Href("../../public/stylesheets/snapshot/css/admin-bar.css?ver=3.4.1")" id='admin-bar-css' />
 
     <link rel="shortcut icon" href="/favicon.ico" />
     <!--[if lte IE 6]>
 	<script defer type="text/javascript" src="public/stylesheets/snapshot/js/pngfix.js"></script>
-	<![endif]-->
-    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js'></script>
+    <![endif]-->
+    @HTML.Script("jquery.cycle.js")
 </head>
 
 <body class="home blog logged-in admin-bar chrome">
@@ -29,12 +29,9 @@
         <div id="header" class="fullspan">
             <div class="container_16">
                 <div class="grid_6" id="logo">
-                    <h1><a href="http://www.facebook.com" title="Return to the the frontpage">Learn MVC3 !</a></h1>
-                </div>
-
-                <div class="grid_8">
-                    <h1 class="title"><a href="http://mail.google.com" title="Home">LearnMVC3 - Other Title</a></h1>
-                    <p class="description"> This is the description</p>
+                    <h1>
+                        @HTML.Link("Learn MVC3", @URL.SiteRoot(), "Return to the the frontpage")
+                    </h1>
                 </div>
 
                 <div id="tagline">
@@ -47,14 +44,20 @@
             <div class="container_16">
                 <div class="grid_12">
                     <ul>
-                        <li class="current_page_item"><a href="http://www.yahoo.com">Link 1</a></li>
-                        <li class="page_item page-item-2"><a href="http://www.google.com">Link 2</a></li>
+                        <li class="current_page_item">
+                            @HTML.Link("Link 1", "http://www.yahoo.com")
+                        </li>
+
+                        <li class="page_item page-item-2">
+                            @HTML.Link("Link 2", "http://www.google.com")
+                        </li>
                     </ul>
                 </div>
                 <div class="grid_4 rss">
                     <ul>
-                        <li><a href="http://localhost:88/wordpress/?feed=rss2" title="Subscribe to the RSS feed">
-                            Subscribe to this site</a></li>
+                        <li>
+                            @HTML.Link("Subscribe to this site", "http://localhost:88/wordpress/?feed=rss2", "Subscribe to the RSS feed")
+                        </li>
                     </ul>
                 </div>
             </div><!-- /container_16 -->
@@ -74,14 +77,18 @@
                             <div class="widget">
                                 <h3 class="hl"> Group 1</h3>
                                 <ul>
-                                    <li><a href="http://localhost:88/wordpress/?p=1" title="Hello world!">Subgroup 1!</a></li>
+                                    <li>
+                                        @HTML.Link("Subgroup 1!","http://localhost:88/wordpress/?p=1","Hello World 1!")
+                                    </li>
                                 </ul>
                             </div>
 
                             <div class="widget">
                                 <h3 class="hl"> Group 2 </h3>
                                 <ul>
-                                    <li><a href="http://localhost:88/wordpress/?p=1" title="Hello world!">Subgroup 2!</a></li>
+                                    <li>
+                                        @HTML.Link("Subgroup 2!","http://localhost:88/wordpress/?p=2","Hello World 2!")
+                                    </li>
                                 </ul>
                             </div>
 
@@ -94,8 +101,7 @@
         <div id="footer" class="fullspan">
             <div class="container_16">
                 <div class="grid_8 powered">
-                    <p>
-                        &copy; Learn MVC 2012</p>
+                    <p>@Snippets.FooterText()</p>
                 </div>
                 <div class="grid_8 omega credit">
                     <p>
