@@ -1,5 +1,7 @@
 ﻿@{
     Page.Title = "The Default Title!";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    
 }
+
+<h4> ViewStart says: @DateTime.Now</h4>
+@{System.Threading.Thread.Sleep(1000);}
