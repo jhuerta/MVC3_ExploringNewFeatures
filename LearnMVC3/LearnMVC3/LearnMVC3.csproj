@@ -113,6 +113,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="App_Readme\glimpse.readme.txt" />
+    <Content Include="Public\javascripts\jquery.cycle.all.js" />
     <Content Include="Public\stylesheets\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Public\stylesheets\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Public\stylesheets\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />

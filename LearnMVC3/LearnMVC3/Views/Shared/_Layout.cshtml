@@ -10,16 +10,33 @@
     @HTML.CSS_snapshot_css("960")
     @HTML.CSS_snapshot_css("style")
     @HTML.CSS_snapshot_css("text")
-    @HTML.Script("jquery_cycle.js");
     @HTML.CSS_snapshot_css("shortcodes")
     <link rel="stylesheet" type="text/css" href="@Href("../../public/stylesheets/snapshot/styles/default.css")"/>
     <link rel='stylesheet'  type="text/css" href="@Href("../../public/stylesheets/snapshot/css/admin-bar.css?ver=3.4.1")" id='admin-bar-css' />
-
+     
     <link rel="shortcut icon" href="/favicon.ico" />
     <!--[if lte IE 6]>
 	<script defer type="text/javascript" src="public/stylesheets/snapshot/js/pngfix.js"></script>
     <![endif]-->
-    @HTML.Script("jquery.cycle.js")
+
+    @HTML.jQuery()
+@HTML.Script("jquery.cycle.all.js")
+<script type="text/javascript">
+    $(function () {
+
+        $(' #user_quotes').cycle(
+            {
+                fx: 'fade',
+                pause: 1,
+                speed: 900,
+                timeout: 4000,
+                pauseOnPagerHover: 0
+            });
+
+
+    });
+
+</script>
 </head>
 
 <body class="home blog logged-in admin-bar chrome">
@@ -100,10 +117,22 @@
 
         <div id="footer" class="fullspan">
             <div class="container_16">
-                <div class="grid_8 powered">
+                <div class="grid_2 powered">
                     <p>@Snippets.FooterText()</p>
                 </div>
-                <div class="grid_8 omega credit">
+
+                <div class="grid_10">
+                    <p>
+                            <div id = "user_quotes" class="column span-24">
+            @foreach (dynamic item in LearnMVC3.Model.Quotes.FromUsers())
+            {
+                @Quotes.User(item)
+            }
+        </div>
+                    </p>
+                </div>
+
+                <div class="grid_3 omega credit">
                     <p>
                         <a href="http://www.woothemes.com">Theme</a> by <a href="http://www.woothemes.com"
                             title="WooThemes - Premium WordPress Themes">

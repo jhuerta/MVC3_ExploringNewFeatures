@@ -7,34 +7,15 @@
 
 <h2>@ViewBag.Message</h2>
 
-<script type="text/javascript">
-    $(document).ready(function () {
-        alert("here");
-        $("#user_quotes").cycle(
-            {
-                fx: 'fade',
-                pause: 1,
-                speed: 900,
-                timeout: 4000,
-                pauseOnPagerHover: 0
-            });
-        alert("there");
-});
-</script>
+
 <p>
     To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
     
     
-    <div class="container">
-        <div id = "user_quotes" class="column span-24">
-            @foreach (dynamic item in LearnMVC3.Model.Quotes.FromUsers())
-            {
-                @Quotes.User(item)
-            }
-        </div>
 
-    </div>
     
+
+
     <div style="border: solid 3px salmon;padding: 15px;5px">
         <b> DynamicRoute: How to reference your routes dinamically.Instead of referencing the route as @@Html.RouteLink("Home", "Root") you can do it as @@router.routeName_url or @@router.routeName_path.
             This is to prevent linking actions/controller names to your view pages (and in your controllers as you redirect).
