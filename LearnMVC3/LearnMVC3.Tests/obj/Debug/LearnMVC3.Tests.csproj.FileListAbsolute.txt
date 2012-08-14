@@ -48,3 +48,5 @@ D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Deb
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\NLog.xml
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\LearnMVC3.Tests.dll
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\LearnMVC3.Tests.pdb
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\EntityFramework.dll
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\EntityFramework.xml

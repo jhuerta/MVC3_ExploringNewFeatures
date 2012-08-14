@@ -28,14 +28,13 @@
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Public/d:stylesheets/d:snapshot/d:styles/f:default.css" caret="385" fromTop="12" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Public/d:stylesheets/d:snapshot/d:css/f:style.css" caret="2155" fromTop="13" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Public/d:stylesheets/d:snapshot/d:css/f:960.css" caret="883" fromTop="14" />
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/f:_ViewStart.cshtml" caret="98" fromTop="4" />
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:Index.cshtml" caret="265" fromTop="10" />
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:_HomeLayout.cshtml" caret="179" fromTop="9" />
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Code/f:HTMLHelpers.cshtml" caret="122" fromTop="2" />
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="902" fromTop="14" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Code/f:HTML.cshtml" caret="0" fromTop="0" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/f:_ViewStart.cshtml" caret="170" fromTop="6" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="5617" fromTop="7" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:Index.cshtml" caret="1697" fromTop="14" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:_HomeLayout.cshtml" caret="484" fromTop="8" />
     </RecentFiles>
     <RecentEdits>
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Public/d:stylesheets/d:snapshot/d:css/f:style.css" caret="477" fromTop="12" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Public/d:stylesheets/d:snapshot/d:css/f:text.css" caret="595" fromTop="15" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Public/d:stylesheets/d:snapshot/d:css/f:style.css" caret="603" fromTop="15" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Public/d:stylesheets/d:snapshot/d:css/f:960.css" caret="687" fromTop="17" />
@@ -47,7 +46,6 @@
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Public/d:stylesheets/d:snapshot/d:css/f:960.css" caret="883" fromTop="14" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="2216" fromTop="15" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="2030" fromTop="11" />
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/f:_ViewStart.cshtml" caret="42" fromTop="1" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="209" fromTop="3" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="5053" fromTop="13" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="5057" fromTop="15" />
@@ -60,11 +58,13 @@
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:Index.cshtml" caret="265" fromTop="10" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:Index.cshtml" caret="47" fromTop="2" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:Index.cshtml" caret="265" fromTop="10" />
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:_HomeLayout.cshtml" caret="396" fromTop="17" />
-      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Code/f:HTMLHelpers.cshtml" caret="122" fromTop="2" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="902" fromTop="14" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="902" fromTop="13" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="902" fromTop="14" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/f:_ViewStart.cshtml" caret="170" fromTop="6" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_Layout.cshtml" caret="5617" fromTop="7" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:Index.cshtml" caret="1697" fromTop="14" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:_HomeLayout.cshtml" caret="484" fromTop="8" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using LearnMVC3.Infrastructure.Logging;
+using LearnMVC3.Model;
 
 namespace LearnMVC3.Controllers
 {
@@ -19,6 +21,9 @@ namespace LearnMVC3.Controllers
         {
             _logger.LogInfo("Hey - I called the Home Page!!!!");
             ViewBag.Message = "Welcome to ASP.NET MVC!";
+
+            var db = new LearnMVC3DBContext();
+            var productions = db.Productions;
 
             return View();
         }

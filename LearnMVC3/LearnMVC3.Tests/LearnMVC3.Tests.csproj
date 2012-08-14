@@ -50,8 +50,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Functionals\AccountsControllerTests.cs" />
+    <Compile Include="Functionals\CustomerSpecs.cs" />
     <Compile Include="Functionals\FakeTokenStore.cs" />
     <Compile Include="Functionals\MembershipSpecs.cs" />
+    <Compile Include="Functionals\ProductionSpecs.cs" />
+    <Compile Include="Functionals\SubscriptionSpecs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestBase.cs" />
   </ItemGroup>

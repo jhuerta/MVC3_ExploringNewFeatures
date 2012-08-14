@@ -34,8 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
+    <Reference Include="EntityFramework, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Glimpse.Core">
       <HintPath>..\packages\Glimpse.0.87\lib\net40\Glimpse.Core.dll</HintPath>
@@ -102,7 +103,9 @@
     <Compile Include="Infrastructure\Logging\NLogger.cs" />
     <Compile Include="Infrastructure\Massive.cs" />
     <Compile Include="Model\AccountModel.cs" />
+    <Compile Include="Model\LearnMVC3DBContext.cs" />
     <Compile Include="Model\LogOnModel.cs" />
+    <Compile Include="Model\Production.cs" />
     <Compile Include="Model\Quotes.cs" />
     <Compile Include="Model\RegisterModel.cs" />
     <Compile Include="Model\UserModel.cs" />

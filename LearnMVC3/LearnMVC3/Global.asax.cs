@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using LearnMVC3.Model;
 
 namespace LearnMVC3
 {
@@ -38,6 +41,9 @@ namespace LearnMVC3
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
+
+            Database.DefaultConnectionFactory = new SqlCeConnectionFactory("System.Data.SqlServerCe.4.0");
+            // var connectionString = ((IObjectContextAdapter) db).ObjectContext.Connection.ConnectionString;
 
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
