@@ -9,14 +9,9 @@
 
 @RenderBody()
 
+@RenderSection("instructions")
+
 <h4>Finishing the Render Body</h4>
-
-
-@section instructions
-{
-
-    <h2>This is the section from index! - Sections are defined in Layout, if the page uses a layout, or in the page itself if there is no layout.</h2>
-}
 
 <h4> Home Layout says: @DateTime.Now</h4>
 @{System.Threading.Thread.Sleep(1000);}

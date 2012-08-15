@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using LearnMVC3.Model;
+using LearnMVC3.Models;
 
 namespace LearnMVC3
 {
@@ -31,10 +32,16 @@ namespace LearnMVC3
                 );
 
             routes.MapRoute(
+                "HomeIndex", // Route name
+                "Home/Index/{id}", // URL with parameters
+                new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
+            );
+
+            routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
-            );
+                );
 
         }
 
@@ -43,6 +50,7 @@ namespace LearnMVC3
             AreaRegistration.RegisterAllAreas();
 
             Database.DefaultConnectionFactory = new SqlCeConnectionFactory("System.Data.SqlServerCe.4.0");
+            //Database.SetInitializer<LearnMVC3DBContext>(new DropCreateDatabaseIfModelChanges<LearnMVC3DBContext>());
             // var connectionString = ((IObjectContextAdapter) db).ObjectContext.Connection.ConnectionString;
 
             RegisterGlobalFilters(GlobalFilters.Filters);

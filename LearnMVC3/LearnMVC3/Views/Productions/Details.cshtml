@@ -1,0 +1,31 @@
+@model LearnMVC3.Model.Production
+
+@{
+    ViewBag.Title = "Details";
+}
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Production</legend>
+
+    <div class="display-label">Title</div>
+    <div class="display-field">@Model.Title</div>
+
+    <div class="display-label">Description</div>
+    <div class="display-field">@Model.Description</div>
+
+    <div class="display-label">Price</div>
+    <div class="display-field">@String.Format("{0:F}", Model.Price)</div>
+
+    <div class="display-label">OldPrice</div>
+    <div class="display-field">@String.Format("{0:F}", Model.OldPrice)</div>
+
+    <div class="display-label">Episodes</div>
+    <div class="display-field">@(Model.Episodes == null ? "None" : Model.Episodes.Count.ToString())</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+

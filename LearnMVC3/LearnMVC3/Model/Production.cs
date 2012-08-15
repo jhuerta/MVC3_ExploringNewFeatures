@@ -16,5 +16,16 @@ namespace LearnMVC3.Model
         public string Title { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
+        public decimal OldPrice { get; set; }
+        public ICollection<Episode> Episodes { get; set; }
+    }
+
+    public class Episode
+    {
+        [Required]
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string ProductionID { get; set; }
     }
 }

@@ -92,7 +92,11 @@
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApplicationController.cs" />
+    <Compile Include="Controllers\EpisodesV2Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductionsController.cs" />
+    <Compile Include="Controllers\_ProductionsV2Controller.cs" />
+    <Compile Include="Controllers\ProductionsV2Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -102,10 +106,12 @@
     <Compile Include="Infrastructure\Logging\ILogger.cs" />
     <Compile Include="Infrastructure\Logging\NLogger.cs" />
     <Compile Include="Infrastructure\Massive.cs" />
+    <Compile Include="Models\LearnMVC3DBContext.cs" />
     <Compile Include="Model\AccountModel.cs" />
-    <Compile Include="Model\LearnMVC3DBContext.cs" />
+    <Compile Include="Model\EpisodesV2.cs" />
     <Compile Include="Model\LogOnModel.cs" />
     <Compile Include="Model\Production.cs" />
+    <Compile Include="Model\ProductionsV2.cs" />
     <Compile Include="Model\Quotes.cs" />
     <Compile Include="Model\RegisterModel.cs" />
     <Compile Include="Model\UserModel.cs" />
@@ -272,17 +278,37 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="App_Code\HTML.cshtml" />
     <Content Include="App_Code\URL.cshtml" />
     <Content Include="App_Code\Snippets.cshtml" />
     <Content Include="App_Code\_quote.cshtml" />
     <Content Include="App_Code\Quotes.cshtml" />
+    <None Include="CodeTemplates\AddController\Controller.tt" />
+    <None Include="CodeTemplates\AddView\CSHTML\Create.tt" />
+    <None Include="CodeTemplates\AddView\CSHTML\Delete.tt" />
+    <None Include="CodeTemplates\AddView\CSHTML\Details.tt" />
+    <None Include="CodeTemplates\AddView\CSHTML\Edit.tt" />
+    <None Include="CodeTemplates\AddView\CSHTML\Empty.tt" />
+    <None Include="CodeTemplates\AddView\CSHTML\List.tt" />
     <None Include="Public\stylesheets\snapshot\js\shortcode-generator\dialog.php" />
     <None Include="Public\stylesheets\snapshot\js\shortcode-generator\js\dialog-js.php" />
     <None Include="Public\stylesheets\snapshot\js\shortcode-generator\preview-shortcode-external.php" />
     <Content Include="Views\Home\_HomeLayout.cshtml" />
+    <Content Include="Views\Productions\Create.cshtml" />
+    <Content Include="Views\Productions\Edit.cshtml" />
+    <Content Include="Views\Productions\Delete.cshtml" />
+    <Content Include="Views\Productions\Details.cshtml" />
+    <Content Include="Views\Productions\Index.cshtml" />
+    <Content Include="Views\Productions\_CreateOrEdit.cshtml" />
+    <Content Include="Views\Productions\_ProductionsLayout.cshtml" />
+    <Content Include="Views\ProductionsV2\Index.cshtml" />
+    <Content Include="Views\ProductionsV2\Create.cshtml" />
+    <Content Include="Views\ProductionsV2\Edit.cshtml" />
+    <Content Include="Views\ProductionsV2\Details.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
