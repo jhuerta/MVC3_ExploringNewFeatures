@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using LearnMVC3.Infrastructure;
+using LearnMVC3.Infrastructure.Logging;
 using LearnMVC3.Tests;
 
 namespace LearnMVC3.Controllers
@@ -16,6 +17,8 @@ namespace LearnMVC3.Controllers
         public ApplicationController(ITokenHandler tokenStore)
         {
             TokenStore = tokenStore;
+            //initialize this
+            ViewBag.CurrentUser = CurrentUser ?? new { Email = "" };
         }
 
         public dynamic CurrentUser
