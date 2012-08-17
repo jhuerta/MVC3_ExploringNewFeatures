@@ -16,6 +16,23 @@ namespace LearnMVC3.Controllers
             ViewBag.Table = _table;
         }
 
+
+        //[HttpGet]
+        //public virtual ActionResult Index()
+        //{
+        //    var query = "aaa";
+        //    IEnumerable<dynamic> results;
+
+        //        results = _table.FuzzySearch(query);
+
+        //        return VidpubJSON(results);
+        //        //return Json(results, JsonRequestBehavior.AllowGet);
+    
+
+        //    return View(results);
+        //}
+
+
         [HttpGet]
         public virtual ActionResult Index(string query)
         {
@@ -29,9 +46,11 @@ namespace LearnMVC3.Controllers
             {
                 results = _table.All();
             }
+
             if(Request.IsAjaxRequest())
             {
-                return Json(results, JsonRequestBehavior.AllowGet);
+                return VidpubJSON(results);
+                //return Json(results, JsonRequestBehavior.AllowGet);
             }
 
             return View(results);

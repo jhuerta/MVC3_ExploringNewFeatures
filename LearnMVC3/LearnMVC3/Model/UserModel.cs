@@ -78,5 +78,18 @@ namespace LearnMVC3.Tests
             var db = new UserModel();
             return db.Single(where: "Email = @0", args: email);
         }
+
+
+
+        public dynamic FuzzySearch(string query)
+        {
+            var queryFormatted = string.Format("select * " +
+                                      "from Users where email like ('%{0}%') " +
+                                      "or createdat like ('%{0}%') " +
+                                      "or hashedpassword like ('%{0}%') " +
+                                      "or updatedat like ('%{0}%')", query);
+            return this.Query(queryFormatted);
+        }
+
     }
 }

@@ -7,7 +7,7 @@ using System.Web.Script.Serialization;
 namespace LearnMVC3.Infrastructure
 {
     // The purpose of this is to serialize properly the dates back to JSON :0000000000
-    public class ExpandoObjectConverter : JavaScriptConverter
+    public class  ExpandoObjectConverter : JavaScriptConverter
     {
         public override IEnumerable<Type> SupportedTypes
         {

@@ -3,26 +3,34 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js" ></script>
 
 <script type="text/javascript">
     $(document).ready(function () {
 
         $("#searchForm").submit(function () {
             var value = $("#search").val();
-            alert("You're looking for " + value);
-
+            $("#searchResults").empty();
             $.getJSON("/ProductionsV2", { query: value }, function (data) {
-                alert(data);
+                var results = { controller: "productionsv2", items: data };
+                $("#searchTemplate").tmpl(results).appendTo("#searchResults");
             });
             return false;
         });
-
-
-
-
     });
 
 
+</script>
+
+<script id="searchTemplate" type="text/html">
+    
+    <table>
+        {{each items}}
+        <tr>
+        <td>${ID}) <a href="${controller}/edit/${ID}">${TITLE}</a>: ${DESCRIPTION}</td>
+        </tr>
+        {{/each}}
+    </table>                
 </script>
 
 <h2>LearnMVC3 Admin</h2>
@@ -32,4 +40,6 @@
     <input type="text" id="search" />
     <input type="submit" value="Go!" />
 </form>
+
+<div id="searchResults"></div>
 
