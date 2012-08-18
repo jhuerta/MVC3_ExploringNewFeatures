@@ -4,26 +4,10 @@
 }
 
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js" ></script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-
-        $("#searchForm").submit(function () {
-            var value = $("#search").val();
-            $("#searchResults").empty();
-            $.getJSON("/ProductionsV2", { query: value }, function (data) {
-                var results = { controller: "productionsv2", items: data };
-                $("#searchTemplate").tmpl(results).appendTo("#searchResults");
-            });
-            return false;
-        });
-    });
-
-
-</script>
+@HTML.Script("learnmvc3-search.js")
 
 <script id="searchTemplate" type="text/html">
-    
+    <h4>${controller}</h4>
     <table>
         {{each items}}
         <tr>
@@ -41,5 +25,7 @@
     <input type="submit" value="Go!" />
 </form>
 
-<div id="searchResults"></div>
+<div id="productionsv2-search-results" class="search-results"></div>
+<div id="episodesv2-search-results" class="search-results"></div>
+<div id="customersv2-search-results" class="search-results"></div>
 

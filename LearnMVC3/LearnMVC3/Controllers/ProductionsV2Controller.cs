@@ -11,6 +11,7 @@ namespace LearnMVC3.Controllers
         public ProductionsV2Controller(ITokenHandler tokenStore) : base(tokenStore)
         {
             _table = new ProductionsV2();
+            ViewBag.Table = _table;
         }
     }
 }

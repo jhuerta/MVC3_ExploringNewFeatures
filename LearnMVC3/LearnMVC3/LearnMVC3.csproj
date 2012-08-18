@@ -93,6 +93,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApplicationController.cs" />
     <Compile Include="Controllers\CruddyControllerBase.cs" />
+    <Compile Include="Controllers\CustomersV2Controller.cs" />
     <Compile Include="Controllers\EpisodesV2Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LearnMVC3Controller.cs" />
@@ -124,11 +125,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf" />
     <Content Include="App_Data\Users_Dev.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="App_Readme\glimpse.readme.txt" />
     <Content Include="Public\javascripts\jquery.cycle.all.js" />
+    <Content Include="Public\javascripts\learnmvc3-search.js" />
     <Content Include="Public\stylesheets\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Public\stylesheets\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Public\stylesheets\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -301,6 +304,10 @@
     <Content Include="Views\ProductionsV2\Details.cshtml" />
     <Content Include="Views\LearnMVC3\Index.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\EpisodesV2\Edit.cshtml" />
+    <Content Include="Views\CustomersV2\Edit.cshtml" />
+    <Content Include="Views\EpisodesV2\Index.cshtml" />
+    <Content Include="Views\CustomersV2\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

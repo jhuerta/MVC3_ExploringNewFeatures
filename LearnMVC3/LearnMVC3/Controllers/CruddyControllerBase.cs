@@ -17,20 +17,20 @@ namespace LearnMVC3.Controllers
         }
 
 
-        //[HttpGet]
-        //public virtual ActionResult Index()
-        //{
-        //    var query = "aaa";
-        //    IEnumerable<dynamic> results;
+        [HttpGet]
+        public virtual ActionResult _Index()
+        {
+            var query = "aaaabb";
+            IEnumerable<dynamic> results;
 
-        //        results = _table.FuzzySearch(query);
+            results = _table.FuzzySearch(query);
 
-        //        return VidpubJSON(results);
-        //        //return Json(results, JsonRequestBehavior.AllowGet);
-    
+            return VidpubJSON(results);
+            //return Json(results, JsonRequestBehavior.AllowGet);
 
-        //    return View(results);
-        //}
+
+            //return View(results);
+        }
 
 
         [HttpGet]
@@ -38,7 +38,7 @@ namespace LearnMVC3.Controllers
         {
             IEnumerable<dynamic> results;
 
-            if(!string.IsNullOrEmpty(query))
+            if (!string.IsNullOrEmpty(query))
             {
                 results = _table.FuzzySearch(query);
             }
@@ -47,7 +47,7 @@ namespace LearnMVC3.Controllers
                 results = _table.All();
             }
 
-            if(Request.IsAjaxRequest())
+            if (Request.IsAjaxRequest())
             {
                 return VidpubJSON(results);
                 //return Json(results, JsonRequestBehavior.AllowGet);
@@ -91,7 +91,7 @@ namespace LearnMVC3.Controllers
         }
 
         [HttpGet]
-        [RequireAdmin]
+        //[RequireAdmin]
         public virtual ActionResult Edit(int id)
         {
             dynamic model = _table.Get(ID: id);
@@ -99,8 +99,8 @@ namespace LearnMVC3.Controllers
             return View(model);
         }
 
-        [HttpPut]
-        [RequireAdmin]
+        //[HttpPut]
+        //[RequireAdmin]
         [ValidateAntiForgeryToken]
         public virtual ActionResult Edit(int id, FormCollection collection)
         {

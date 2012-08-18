@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+
+<table>
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Email
+        </th>
+
+                <th>
+            LastLogin
+        </th>
+                <th>
+            CreatedAt
+        </th>
+                <th>
+            UpodatedAt
+        </th>
+                 <th>
+            Token
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.ID
+        </td>
+        <td>
+            @item.Email
+        </td>
+
+        <td>
+            @item.LastLogin
+        </td>
+        <td>
+            @item.CreatedAt
+        </td>
+                <td>
+            @item.UpdatedAt
+        </td>
+                <td>
+            @item.Token
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { ID=@item.ID }) |
+@*            @Html.ActionLink("Details", "Details", new { ID = @item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { ID = @item.ID })*@
+        </td>
+    </tr>
+}
+
+</table>

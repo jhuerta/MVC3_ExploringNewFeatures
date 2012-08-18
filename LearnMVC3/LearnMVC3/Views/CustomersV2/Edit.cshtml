@@ -1,0 +1,26 @@
+﻿@{ Layout = "~/Views/Shared/_Layout.cshtml";}
+
+<h2>Edit</h2>
+
+@Form.Scripts()
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <fieldset>
+    <legend>ProductionsV2</legend>
+        @Form.TextBoxRequired("Title", Model.Title) 
+        @Form.TextBoxNumber("Price", Model.Price) 
+        @Form.TextBoxNumber("OldPrice", Model.OldPrice) 
+        @Form.TextArea("Description", Model.Description) 
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Save" />
+    </p>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

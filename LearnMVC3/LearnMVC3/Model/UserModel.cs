@@ -10,6 +10,7 @@ namespace LearnMVC3.Tests
     {
         public UserModel():base("Users", "Users", "Id"){}
         
+
         public dynamic Register(string email, string password, string confirmPassword)
         {
 
@@ -83,11 +84,9 @@ namespace LearnMVC3.Tests
 
         public dynamic FuzzySearch(string query)
         {
-            var queryFormatted = string.Format("select * " +
-                                      "from Users where email like ('%{0}%') " +
-                                      "or createdat like ('%{0}%') " +
-                                      "or hashedpassword like ('%{0}%') " +
-                                      "or updatedat like ('%{0}%')", query);
+            var queryFormatted = string.Format("select ID, email as TITLE, CreatedAt as DESCRIPTION " +
+                                      "from Users where email like ('%{0}%')  " +
+                                      "or createdat like ('%{0}%') " , query);
             return this.Query(queryFormatted);
         }
 

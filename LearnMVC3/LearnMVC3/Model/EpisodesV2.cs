@@ -16,7 +16,7 @@ namespace LearnMVC3.Model
 
         public dynamic FuzzySearch(string query)
         {
-            var queryFormatted = string.Format("select * " +
+            var queryFormatted = string.Format("select ID,  title as TITLE, Description as DESCRIPTION " +
                                       "from episodes where title like ('%{0}%') " +
                                       "or description like ('%{0}%') " +
                                       "or productionid like ('%{0}%')", query);
