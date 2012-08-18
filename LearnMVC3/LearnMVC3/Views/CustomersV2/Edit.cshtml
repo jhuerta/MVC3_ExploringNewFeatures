@@ -9,11 +9,14 @@
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
     <fieldset>
-    <legend>ProductionsV2</legend>
-        @Form.TextBoxRequired("Title", Model.Title) 
-        @Form.TextBoxNumber("Price", Model.Price) 
-        @Form.TextBoxNumber("OldPrice", Model.OldPrice) 
-        @Form.TextArea("Description", Model.Description) 
+    <legend>CustomersV2</legend>
+
+
+    Id: @Model.ID) <br />
+    Updated At: @Model.UpdatedAt <br />
+    Created At: @Model.CreatedAt <br />
+    Current Token: @Model.Token <br />
+    @Form.TextBoxRequired("Email", Model.Email)  <br />
     </fieldset>
 
     <p>
