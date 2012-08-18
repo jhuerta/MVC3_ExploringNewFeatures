@@ -4,20 +4,24 @@ using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using LearnMVC3.Infrastructure;
 using LearnMVC3.Infrastructure.Logging;
 using LearnMVC3.Model;
 using LearnMVC3.Models;
 
 namespace LearnMVC3.Controllers
 {
+    
     public class HomeController : Controller
     {
         ILogger _logger;
+
 
         public HomeController(ILogger logger)
         {
             _logger = logger;
         }
+
         public ActionResult Index()
         {
             _logger.LogInfo("Hey - I called the Home Page!!!!");
@@ -30,7 +34,6 @@ namespace LearnMVC3.Controllers
             int success = db.SaveChanges();
             
             _logger.LogInfo(string.Format("Datatabase: {0}", ((IObjectContextAdapter)db).ObjectContext.Connection.ConnectionString));
-            
 
             return View();
         }

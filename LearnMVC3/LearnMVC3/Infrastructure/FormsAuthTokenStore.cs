@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Security;
@@ -17,6 +16,10 @@ namespace LearnMVC3.Infrastructure
     {
         public void SetClientAccess(string token)
         {
+            HttpContext.Current.Response.Cookies["auth"].Value = token;
+            HttpContext.Current.Response.Cookies["auth"].Expires = DateTime.Today.AddDays(60);
+            HttpContext.Current.Response.Cookies["auth"].HttpOnly = true;
+
             FormsAuthentication.SetAuthCookie(token, true);
         }
 

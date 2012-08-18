@@ -12,5 +12,16 @@ namespace LearnMVC3.Model
         public string Title { get; set; }
         public string Description { get; set; }
         public string ProductionID { get; set; }
+
+
+        public dynamic FuzzySearch(string query)
+        {
+            var queryFormatted = string.Format("select ID,  title as TITLE, Description as DESCRIPTION " +
+                                      "from episodes where title like ('%{0}%') " +
+                                      "or description like ('%{0}%') " +
+                                      "or productionid like ('%{0}%')", query);
+            return this.Query(queryFormatted);
+        }
+
     }
 }

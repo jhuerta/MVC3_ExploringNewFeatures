@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js" ></script>
+@HTML.Script("learnmvc3-search.js")
+
+<script id="searchTemplate" type="text/html">
+    <h4>${controller}</h4>
+    <table>
+        {{each items}}
+        <tr>
+        <td>${ID}) <a href="${controller}/edit/${ID}">${TITLE}</a>: ${DESCRIPTION}</td>
+        </tr>
+        {{/each}}
+    </table>                
+</script>
+
+<h2>LearnMVC3 Admin</h2>
+
+<form id="searchForm">
+    <label>Find: </label>
+    <input type="text" id="search" />
+    <input type="submit" value="Go!" />
+</form>
+
+<div id="productionsv2-search-results" class="search-results"></div>
+<div id="episodesv2-search-results" class="search-results"></div>
+<div id="customersv2-search-results" class="search-results"></div>
+
