@@ -12,8 +12,15 @@
       <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="1518" fromTop="4" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:EpisodesV2/f:Index.cshtml" caret="684" fromTop="8" />
       <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:CustomersV2/f:Index.cshtml" caret="591" fromTop="6" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Code/f:Form.cshtml" caret="100" fromTop="3" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:CustomersV2/f:Edit.cshtml" caret="438" fromTop="9" />
     </RecentFiles>
-    <RecentEdits />
+    <RecentEdits>
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:CustomersV2/f:Edit.cshtml" caret="431" fromTop="9" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:CustomersV2/f:Edit.cshtml" caret="431" fromTop="11" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:CustomersV2/f:Edit.cshtml" caret="440" fromTop="10" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:CustomersV2/f:Edit.cshtml" caret="438" fromTop="9" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />

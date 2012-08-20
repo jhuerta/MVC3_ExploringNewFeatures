@@ -25,7 +25,7 @@ namespace LearnMVC3.Controllers
 
             results = _table.FuzzySearch(query);
 
-            return VidpubJSON(results);
+            return LearnMVC3JSON(results);
             //return Json(results, JsonRequestBehavior.AllowGet);
 
 
@@ -49,7 +49,7 @@ namespace LearnMVC3.Controllers
 
             if (Request.IsAjaxRequest())
             {
-                return VidpubJSON(results);
+                return LearnMVC3JSON(results);
                 //return Json(results, JsonRequestBehavior.AllowGet);
             }
 
@@ -123,16 +123,6 @@ namespace LearnMVC3.Controllers
         {
             _table.Delete(id);
             return View("Index",_table.All());
-        }
-
-        public ActionResult VidpubJSON(dynamic content)
-        {
-            var serializer = new JavaScriptSerializer();
-            serializer.RegisterConverters(new JavaScriptConverter[] {new ExpandoObjectConverter()});
-            var json = serializer.Serialize(content);
-            Response.ContentType = "application/json";
-            return Content(json);
-
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Script.Serialization;
 using LearnMVC3.Infrastructure;
 using LearnMVC3.Infrastructure.Logging;
 using LearnMVC3.Tests;
@@ -46,6 +47,16 @@ namespace LearnMVC3.Controllers
             {
                 return CurrentUser != null;
             }
+        }
+
+        public ActionResult LearnMVC3JSON(dynamic content)
+        {
+            var serializer = new JavaScriptSerializer();
+            serializer.RegisterConverters(new JavaScriptConverter[] { new ExpandoObjectConverter() });
+            var json = serializer.Serialize(content);
+            Response.ContentType = "application/json";
+            return Content(json);
+
         }
     }
 }

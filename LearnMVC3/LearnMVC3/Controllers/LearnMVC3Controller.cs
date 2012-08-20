@@ -18,5 +18,10 @@ namespace LearnMVC3.Controllers
         {
             return View();
         }
+
+        public ActionResult Productions()
+        {
+            return View();
+        }
     }
 }

@@ -10,6 +10,7 @@
     }
 };
 
+
 jQuery(function () {
     $("#searchForm").submit(function () {
         var queryValue = $("#search").val();

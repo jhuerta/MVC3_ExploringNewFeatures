@@ -38,9 +38,9 @@ namespace LearnMVC3.Controllers
             return View();
         }
 
-        private static Production CreateNewProduction()
+        private static Productions CreateNewProduction()
         {
-            return new Production()
+            return new Productions()
                        {
                            Description = "Production title",
                            Title = "Production Title",

@@ -28,8 +28,8 @@ namespace LearnMVC3.Controllers
 
         public ViewResult Details(int id)
         {
-            Production production = context.Productions.Single(x => x.ID == id);
-            return View(production);
+            Productions productions = context.Productions.Single(x => x.ID == id);
+            return View(productions);
         }
 
         //
@@ -44,16 +44,16 @@ namespace LearnMVC3.Controllers
         // POST: /Productions/Create
 
         [HttpPost]
-        public ActionResult Create(Production production)
+        public ActionResult Create(Productions productions)
         {
             if (ModelState.IsValid)
             {
-                context.Productions.Add(production);
+                context.Productions.Add(productions);
                 context.SaveChanges();
                 return RedirectToAction("Index");  
             }
 
-            return View(production);
+            return View(productions);
         }
         
         //
@@ -61,23 +61,23 @@ namespace LearnMVC3.Controllers
  
         public ActionResult Edit(int id)
         {
-            Production production = context.Productions.Single(x => x.ID == id);
-            return View(production);
+            Productions productions = context.Productions.Single(x => x.ID == id);
+            return View(productions);
         }
 
         //
         // POST: /Productions/Edit/5
 
         [HttpPost]
-        public ActionResult Edit(Production production)
+        public ActionResult Edit(Productions productions)
         {
             if (ModelState.IsValid)
             {
-                context.Entry(production).State = EntityState.Modified;
+                context.Entry(productions).State = EntityState.Modified;
                 context.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(production);
+            return View(productions);
         }
 
         //
@@ -85,8 +85,8 @@ namespace LearnMVC3.Controllers
  
         public ActionResult Delete(int id)
         {
-            Production production = context.Productions.Single(x => x.ID == id);
-            return View(production);
+            Productions productions = context.Productions.Single(x => x.ID == id);
+            return View(productions);
         }
 
         //
@@ -95,8 +95,8 @@ namespace LearnMVC3.Controllers
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {
-            Production production = context.Productions.Single(x => x.ID == id);
-            context.Productions.Remove(production);
+            Productions productions = context.Productions.Single(x => x.ID == id);
+            context.Productions.Remove(productions);
             context.SaveChanges();
             return RedirectToAction("Index");
         }

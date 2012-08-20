@@ -14,7 +14,7 @@
     <AssemblyName>LearnMVC3</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -90,6 +90,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\NinjectWebCommon.cs" />
+    <Compile Include="Areas\Api\ApiAreaRegistration.cs" />
+    <Compile Include="Areas\Api\Controllers\ProductionsController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApplicationController.cs" />
     <Compile Include="Controllers\CruddyControllerBase.cs" />
@@ -117,7 +119,7 @@
     <Compile Include="Model\Customers.cs" />
     <Compile Include="Model\EpisodesV2.cs" />
     <Compile Include="Model\LogOnModel.cs" />
-    <Compile Include="Model\Production.cs" />
+    <Compile Include="Model\Productions.cs" />
     <Compile Include="Model\ProductionsV2.cs" />
     <Compile Include="Model\Quotes.cs" />
     <Compile Include="Model\RegisterModel.cs" />
@@ -130,8 +132,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="App_Readme\glimpse.readme.txt" />
+    <Content Include="Public\javascripts\backbone-min.js" />
     <Content Include="Public\javascripts\jquery.cycle.all.js" />
     <Content Include="Public\javascripts\learnmvc3-search.js" />
+    <Content Include="Public\javascripts\production-admin.js" />
+    <Content Include="Public\javascripts\underscore-min.js" />
     <Content Include="Public\stylesheets\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Public\stylesheets\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Public\stylesheets\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -280,6 +285,7 @@
     <Content Include="App_Code\_quote.cshtml" />
     <Content Include="App_Code\Quotes.cshtml" />
     <Content Include="App_Code\Form.cshtml" />
+    <Content Include="Areas\Api\Views\Web.config" />
     <None Include="CodeTemplates\AddController\Controller.tt" />
     <None Include="CodeTemplates\AddView\CSHTML\Create.tt" />
     <None Include="CodeTemplates\AddView\CSHTML\Delete.tt" />
@@ -308,8 +314,12 @@
     <Content Include="Views\CustomersV2\Edit.cshtml" />
     <Content Include="Views\EpisodesV2\Index.cshtml" />
     <Content Include="Views\CustomersV2\Index.cshtml" />
+    <Content Include="Views\LearnMVC3\Productions.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Areas\Api\Models\" />
+    <Folder Include="Areas\Api\Views\Shared\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -325,12 +335,11 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>False</UseIIS>
+          <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>1243</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>
-          </IISUrl>
+          <IISUrl>http://localhost:1243/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
