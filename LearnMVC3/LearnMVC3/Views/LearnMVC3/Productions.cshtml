@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Productions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@HTML.Templates()
+@HTML.Script("underscore-min.js")
+@HTML.Script("backbone-min.js")
+@HTML.Script("production-admin.js")
+
+
+
+    <div id="production-form" ></div>
+
+
+    <div id="production-list" ></div>
+
+
+<script id="listTemplate" type="text/html">
+    <h2><a href="#" id="new-production"> Create</a></h2>
+
+    {{each items}}
+        <h1>Title: ${Title}</h1> <a id="edit-form"data-production-id = ${ID} href="#">edit</a>
+        <ul>#
+        <li>Price: ${Price}</li>
+        <li>OldPrice: ${OldPrice}</li>
+        <li>Id: ${ID}</li>
+        <li>Description: ${Description}</li>
+        </ul>
+    {{/each}}
+
+
+
+</script>
+
+<script id = "productionFormTemplate" type="text/html">
+
+    <form id = "productionForm">
+        @Form.TextBoxWithBackBoneValue("Title")
+        @Form.TextBoxWithBackBoneValue("ID")
+        @Form.TextBoxWithBackBoneValue("OldPrice")
+        @Form.TextBoxWithBackBoneValue("Description")
+        @Form.TextBoxWithBackBoneValue("Price")
+        @Form.Submit()
+    </form>
+</script>
+
