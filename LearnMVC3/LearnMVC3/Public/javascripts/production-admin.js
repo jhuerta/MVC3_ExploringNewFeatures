@@ -3,6 +3,11 @@
     url: function () {
         return this.isNew() ? "/learnmvc3/api/productions/create" : "/learnmvc3/api/productions/edit/" + this.get("ID");
 //        return this.isNew() ? "/api/productions/create" : "/api/productions/edit/" + this.get("ID");
+    },
+    validate : function(atts) {
+        if("Title" in atts & !atts.Title){
+            return "Title is required!"
+        }
     }
 });
 Productions = Backbone.Collection.extend({
