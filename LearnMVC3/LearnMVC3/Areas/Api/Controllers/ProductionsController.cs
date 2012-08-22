@@ -25,7 +25,16 @@ namespace LearnMVC3.Areas.Api.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            return LearnMVC3JSON(_productions.All());
+            return LearnMVC3JSON(_productions.All(orderby: "ID DESC"));
+        }
+
+
+        [HttpPost]
+        public ActionResult Create()
+        {
+            var model = SqueezeJson();
+            _productions.Insert(model);
+            return LearnMVC3JSON(_productions.All(orderby: "ID DESC"));
         }
 
         [HttpPut]

@@ -1,10 +1,10 @@
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\LearnMVC3.Tasks.exe
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\LearnMVC3.Tasks.pdb
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\LearnMVC3.Tasks.exe
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\LearnMVC3.Tasks.pdb
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\LearnMVC3.Tasks.exe
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\LearnMVC3.Tasks.pdb
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\LearnMVC3.Tasks.exe
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\LearnMVC3.Tasks.pdb
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\LearnMVC3.Tasks.exe
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\LearnMVC3.Tasks.pdb
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\LearnMVC3.Tasks.exe
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\LearnMVC3.Tasks.pdb

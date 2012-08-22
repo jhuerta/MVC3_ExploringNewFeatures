@@ -9,27 +9,28 @@
 @HTML.Script("production-admin.js")
 
 
+    <div id="notifier" >A</div>
 
     <div id="production-form" ></div>
-
-
     <div id="production-list" ></div>
 
 
-<script id="listTemplate" type="text/html">
+<script id="notifierTemplate" type="text/html">
+    <div class = "${className}"> ${message}</div>
+</script>
+    
+    <script id="listTemplate" type="text/html">
     <h2><a href="#" id="new-production"> Create</a></h2>
 
     {{each items}}
-        <h1>Title: ${Title}</h1> <a id="edit-form"data-production-id = ${ID} href="#">edit</a>
-        <ul>#
+    <h1>Title: ${Title}</h1> <a id="edit-form"data-production-id = ${ID} href="#">edit</a>
+    <ul>#
         <li>Price: ${Price}</li>
         <li>OldPrice: ${OldPrice}</li>
         <li>Id: ${ID}</li>
         <li>Description: ${Description}</li>
-        </ul>
+    </ul>
     {{/each}}
-
-
 
 </script>
 

@@ -1,12 +1,14 @@
 ﻿Production = Backbone.Model.extend({
     idAttribute: "ID",
     url: function () {
-        return this.isNew() ? "/learnmvc3/api/productions/create" : "/learnmvc3/api/productions/edit/" + this.get("ID");
+//        return this.isNew() ? "/learnmvc3/api/productions/create" : "/learnmvc3/api/productions/edit/" + this.get("ID");
+        return this.isNew() ? "/api/productions/create" : "/api/productions/edit/" + this.get("ID");
     }
 });
 Productions = Backbone.Collection.extend({
     model: Production,
-    url : "/learnmvc3/api/productions"
+//    url : "/learnmvc3/api/productions"
+    url : "/api/productions"
 });
 
 productions = new Productions();
@@ -27,11 +29,17 @@ FormView = Backbone.View.extend({
         this.model.save(
             this.model.attributes,
             {
-                success: function (model, response) {
-                    alert(model.get("Title") + " saved");
+                success: function (model,response  ) {
+//                    alert(model.get("Title") + " saved");
+                    notifierView.className = "success";
+                    notifierView.message = model.get("Title") + " saved";
+                    notifierView.render();
                 },
                 error: function (model, response) {
-                    alert("Uh oh!!!! ..." + model.get("Title") + " NOT saved");
+//                    alert("Uh oh!!!! ..." + model.get("Title") + " NOT saved");
+                    notifierView.className = "error";
+                    notifierView.message = "ERROR SAVING : " + response.responseText;
+                    notifierView.render();
                 }
             }
         );
@@ -51,6 +59,21 @@ FormView = Backbone.View.extend({
     }
 
 });
+
+NotifierView = Backbone.View.extend({
+        initialize: function () {
+            this.template = $("#notifierTemplate");
+            this.className = "Success";
+            this.message = "Success";
+    },
+    render: function () {
+        var html = this.template.tmpl( { message: this.message,className: this.className});
+        $(this.el).html(html);
+        return this;
+    }
+});
+    
+
 ListView = Backbone.View.extend({
     initialize: function () {
         _.bindAll(this, 'render');
@@ -94,6 +117,7 @@ jQuery(function () {
 
 var ProductionAdmin = Backbone.Router.extend({
     initialize: function () {
+        notifierView = new NotifierView({ el: "#notifier" });
         listView = new ListView({ collection: productions, el: "#production-list" });
         formView = new FormView({ model: model, el: "#production-form" });
     },

@@ -7,6 +7,8 @@ Author: WooThemes
 Author URL: http://www.woothemes.com/
 */
 
+.error{ color: saddlebrown;border:2px solid indianred;;background: mistyrose}
+.success{color: green;border:2px solid lightsteelblue ;background: lightcyan}
 h1, h2, h3, h4, h5, h6  {
 	font-weight: bold;
 }
