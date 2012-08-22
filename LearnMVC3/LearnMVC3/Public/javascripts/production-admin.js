@@ -1,14 +1,14 @@
 ﻿Production = Backbone.Model.extend({
     idAttribute: "ID",
     url: function () {
-//        return this.isNew() ? "/learnmvc3/api/productions/create" : "/learnmvc3/api/productions/edit/" + this.get("ID");
-        return this.isNew() ? "/api/productions/create" : "/api/productions/edit/" + this.get("ID");
+        return this.isNew() ? "/learnmvc3/api/productions/create" : "/learnmvc3/api/productions/edit/" + this.get("ID");
+//        return this.isNew() ? "/api/productions/create" : "/api/productions/edit/" + this.get("ID");
     }
 });
 Productions = Backbone.Collection.extend({
     model: Production,
-//    url : "/learnmvc3/api/productions"
-    url : "/api/productions"
+    url : "/learnmvc3/api/productions"
+//    url : "/api/productions"
 });
 
 productions = new Productions();

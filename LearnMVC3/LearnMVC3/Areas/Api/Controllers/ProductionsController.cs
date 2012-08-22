@@ -34,7 +34,7 @@ namespace LearnMVC3.Areas.Api.Controllers
         {
             var model = SqueezeJson();
             _productions.Insert(model);
-            return LearnMVC3JSON(_productions.All(orderby: "ID DESC"));
+            return LearnMVC3JSON(model);
         }
 
         [HttpPut]
