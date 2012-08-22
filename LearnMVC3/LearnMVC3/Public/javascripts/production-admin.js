@@ -1,4 +1,7 @@
 ﻿Production = Backbone.Model.extend({
+    initialize : function() {
+        this.bind("error", this.tellCollection);
+    },
     idAttribute: "ID",
     url: function () {
         return this.isNew() ? "/learnmvc3/api/productions/create" : "/learnmvc3/api/productions/edit/" + this.get("ID");
@@ -8,6 +11,11 @@
         if("Title" in atts & !atts.Title){
             return "Title is required!"
         }
+    },
+    tellCollection : function(model, error) {
+        // should be message from validate
+        // Again, this trigger is not working ... collection is not found
+        this.collection.trigger("itemError", error);
     }
 });
 Productions = Backbone.Collection.extend({
@@ -19,64 +27,8 @@ Productions = Backbone.Collection.extend({
 productions = new Productions();
 model = new Production();
 
-FormView = Backbone.View.extend({
-    initialize: function () {
-        _.bindAll(this, 'render');
-        this.template = $("#productionFormTemplate");
-        this.model.bind("reset", this.render);
-    },
-    events: {
-        "change input": "updateModel",
-        "keypress  input": "updateModel",
-        "submit #productionForm": "save",
-    },
-    save: function () {
-        this.model.save(
-            this.model.attributes,
-            {
-                success: function (model,response  ) {
-//                    alert(model.get("Title") + " saved");
-                    notifierView.className = "success";
-                    notifierView.message = model.get("Title") + " saved";
-                    notifierView.render();
-                },
-                error: function (model, response) {
-//                    alert("Uh oh!!!! ..." + model.get("Title") + " NOT saved");
-                    notifierView.className = "error";
-                    notifierView.message = "ERROR SAVING : " + response.responseText;
-                    notifierView.render();
-                }
-            }
-        );
-        return false;
-    },
-    updateModel: function (evt) {
-        var field = $(evt.currentTarget);
-        var data = {};
-        data[field.attr('ID')] = field.val();
-        this.model.set(data);
-    },
-    render: function () {
-        var html = this.template.tmpl(this.model.toJSON());
-        $(this.el).html(html);
-        $("#OldPrice").datepicker();
-        return this;
-    }
 
-});
 
-NotifierView = Backbone.View.extend({
-        initialize: function () {
-            this.template = $("#notifierTemplate");
-            this.className = "Success";
-            this.message = "Success";
-    },
-    render: function () {
-        var html = this.template.tmpl( { message: this.message,className: this.className});
-        $(this.el).html(html);
-        return this;
-    }
-});
     
 
 ListView = Backbone.View.extend({
@@ -105,6 +57,105 @@ ListView = Backbone.View.extend({
         return this;
     }
 
+});
+
+
+
+
+FormView = Backbone.View.extend({
+    initialize: function () {
+        _.bindAll(this, 'render');
+        this.template = $("#productionFormTemplate");
+        this.model.bind("reset", this.render);
+    },
+    events: {
+        "change input": "updateModel",
+        "keypress  input": "updateModel",
+        "submit #productionForm": "save",
+    },
+    save: function () {
+        this.model.save(
+            this.model.attributes,
+            {
+                success: function (model,response  ) {
+                    var msg = model.get("Title") + " saved";
+//                    None of these triggers are working ... cant find the cause
+//                    this.model.collection.trigger("itemSaved",msg);
+//                    this.model.trigger("itemSaved",msg);
+                    var msgInfo = "After Triggering SUCCESS - Trigger Not Working - " + msg + " - Displaying the message from here";
+                    //alert(msgInfo) ;
+
+                    notifierView.className = "success";
+                    notifierView.message = msg + " -- " + msgInfo;
+                    notifierView.render();
+
+                },
+                error: function (model, response) {
+                    var msg = "Uh oh!!!! ..." + model.get("Title") + " NOT saved"
+//                    This trigger not working :(  - Cant find the cause
+//                    this.model.trigger("itemError",msg);
+
+                    var msgInfo = "After Triggering An Error - Trigger Not Working - " + msg + " - Displaying the error from here";
+
+                    notifierView.className = "error";
+                    notifierView.message = msg + " -- " + msgInfo;
+                    notifierView.render();
+                }
+            }
+        );
+        return false;
+    },
+    updateModel: function (evt) {
+        var field = $(evt.currentTarget);
+        var data = {};
+        data[field.attr('ID')] = field.val();
+        this.model.set(data);
+    },
+    render: function () {
+        var html = this.template.tmpl(this.model.toJSON());
+        $(this.el).html(html);
+        $("#OldPrice").datepicker();
+        return this;
+    }
+
+});
+
+
+
+
+NotifierView = Backbone.View.extend({
+        initialize: function () {
+        this.template = $("#notifierTemplate");
+        this.className = "Success";
+        this.message = "Success";
+        _.bindAll(this, "render", "notifySave", "notifyError");
+        //use the globals - no need to depend on a single collection
+        productions.bind("itemSaved", this.notifySave);
+        productions.bind("itemError", this.notifyError);
+    },
+    events : {
+        "click" : "goAway"
+    },
+    goAway : function() {
+        $(this.el).delay(3000).fadeOut();
+    },
+    notifySave : function(msg) {
+        alert("THIS IS GREAT!!! - Triggering Working - notifySave");
+        this.className = "success";
+        this.message = msg;
+        this.render();
+    },
+    notifyError : function(msg) {
+        alert("THIS IS GREAT!!! - Triggering Working - notifyError");
+        this.className = "error";
+        this.message = msg;
+        this.render();
+    },
+    render: function () {
+        var html = this.template.tmpl( { message: this.message,className: this.className});
+        $(this.el).html(html);
+        return this;
+    }
 });
 
 jQuery(function () {
