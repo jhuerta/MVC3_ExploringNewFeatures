@@ -1,7 +1,4 @@
 ﻿Production = Backbone.Model.extend({
-    initialize : function() {
-        this.bind("error", this.tellCollection);
-    },
     idAttribute: "ID",
     url: function () {
         return this.isNew() ? "/learnmvc3/api/productions/create" : "/learnmvc3/api/productions/edit/" + this.get("ID");
@@ -11,11 +8,6 @@
         if("Title" in atts & !atts.Title){
             return "Title is required!"
         }
-    },
-    tellCollection : function(model, error) {
-        // should be message from validate
-        // Again, this trigger is not working ... collection is not found
-        this.collection.trigger("itemError", error);
     }
 });
 Productions = Backbone.Collection.extend({
@@ -137,15 +129,15 @@ NotifierView = Backbone.View.extend({
         "click" : "goAway"
     },
     goAway : function() {
-        $(this.el).delay(3000).fadeOut();
+        $(this.el).fadeOut();
     },
-    notifySave : function(msg) {
+    notifySave : function() {
         alert("THIS IS GREAT!!! - Triggering Working - notifySave");
         this.className = "success";
         this.message = msg;
         this.render();
     },
-    notifyError : function(msg) {
+    notifyError : function() {
         alert("THIS IS GREAT!!! - Triggering Working - notifyError");
         this.className = "error";
         this.message = msg;
