@@ -18,5 +18,7 @@ namespace LearnMVC3.Models
         // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<LearnMVC3.Models.LearnMVC3DBContext>());
 
         public DbSet<LearnMVC3.Model.Productions> Productions { get; set; }
+        public DbSet<LearnMVC3.Model.Orders> Orders { get; set; }
+        public DbSet<LearnMVC3.Model.Items> Items { get; set; }
     }
 }

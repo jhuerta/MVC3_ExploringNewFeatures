@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -39,6 +41,32 @@ namespace LearnMVC3.Controllers
 
                 return _currentUser;
             }
+        }
+
+        public string ReadJson()
+        {
+            var bodyText = "";
+            using (var stream = Request.InputStream)
+            {
+                stream.Seek(0, SeekOrigin.Begin);
+                using (var reader = new StreamReader(stream))
+                    bodyText = reader.ReadToEnd();
+            }
+            return bodyText;
+        }
+
+        public dynamic SqueezeJson()
+        {
+            var serializer = new JavaScriptSerializer();
+            serializer.RegisterConverters(new JavaScriptConverter[] { new ExpandoObjectConverter() });
+            var bodyText = "";
+            using (var stream = Request.InputStream)
+            {
+                stream.Seek(0, SeekOrigin.Begin);
+                using (var reader = new StreamReader(stream))
+                    bodyText = reader.ReadToEnd();
+            }
+            return serializer.Deserialize(bodyText, typeof(ExpandoObject));
         }
 
         public bool IsLoggedIn

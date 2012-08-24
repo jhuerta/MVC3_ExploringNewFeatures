@@ -92,6 +92,7 @@
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="Areas\Api\ApiAreaRegistration.cs" />
     <Compile Include="Areas\Api\Controllers\ProductionsController.cs" />
+    <Compile Include="Areas\Api\Controllers\ShopifyController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApplicationController.cs" />
     <Compile Include="Controllers\CruddyControllerBase.cs" />
@@ -118,7 +119,9 @@
     <Compile Include="Model\AccountModel.cs" />
     <Compile Include="Model\Customers.cs" />
     <Compile Include="Model\EpisodesV2.cs" />
+    <Compile Include="Model\Items.cs" />
     <Compile Include="Model\LogOnModel.cs" />
+    <Compile Include="Model\Orders.cs" />
     <Compile Include="Model\Productions.cs" />
     <Compile Include="Model\ProductionsV2.cs" />
     <Compile Include="Model\Quotes.cs" />
