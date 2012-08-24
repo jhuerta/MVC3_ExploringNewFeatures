@@ -50,7 +50,7 @@ namespace LearnMVC3
             AreaRegistration.RegisterAllAreas();
 
             Database.DefaultConnectionFactory = new SqlCeConnectionFactory("System.Data.SqlServerCe.4.0");
-            //Database.SetInitializer<LearnMVC3DBContext>(new DropCreateDatabaseIfModelChanges<LearnMVC3DBContext>());
+            Database.SetInitializer<LearnMVC3DBContext>(new DropCreateDatabaseIfModelChanges<LearnMVC3DBContext>());
             // var connectionString = ((IObjectContextAdapter) db).ObjectContext.Connection.ConnectionString;
 
             RegisterGlobalFilters(GlobalFilters.Filters);

@@ -1,66 +1,65 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:EpisodesV2Controller.cs" caret="254" fromTop="11" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:CodeTemplates/d:AddController/f:Controller.tt" caret="117" fromTop="3" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:CodeTemplates/d:AddView/d:CSHTML/f:Edit.tt" caret="159" fromTop="3" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:ProductionsV2/f:Create.cshtml" caret="310" fromTop="3" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:ProductionsV2/f:Details.cshtml" caret="603" fromTop="17" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:ProductionsV2/f:Index.cshtml" caret="159" fromTop="9" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Code/f:HTML.cshtml" caret="614" fromTop="16" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:ProductionsV2/f:Edit.cshtml" caret="540" fromTop="21" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Code/f:Form.cshtml" caret="1109" fromTop="32" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:AjaxOnlyAttribute.cs" caret="81" fromTop="4" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_AdminLayout.cshtml" caret="51" fromTop="3" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Web.config" caret="566" fromTop="11" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Productions/f:Edit.cshtml" caret="88" fromTop="6" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:RequireAdminAttribute.cs" caret="1275" fromTop="30" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ApplicationController.cs" caret="673" fromTop="22" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="1129" fromTop="10" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ProductionsController.cs" caret="115" fromTop="0" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Customers.cs" caret="261" fromTop="12" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:ExpandoObjectConverter.cs" caret="268" fromTop="8" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:FormsAuthTokenStore.cs" caret="1135" fromTop="10" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Start/f:NinjectWebCommon.cs" caret="1959" fromTop="27" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Global.asax.cs" caret="1039" fromTop="14" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="357" fromTop="8" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:UserModel.cs" caret="1576" fromTop="40" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:Massive.cs" caret="9507" fromTop="17" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:ProductionsV2.cs" caret="1034" fromTop="18" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:LearnMVC3Controller.cs" caret="258" fromTop="11" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ProductionsV2Controller.cs" caret="346" fromTop="12" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="889" fromTop="17" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:LearnMVC3/f:Index.cshtml" caret="472" fromTop="17" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Public/d:javascripts/f:production-admin.js" caret="591" fromTop="14" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:ProductionsV2.cs" caret="506" fromTop="16" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:NLog.config" caret="798" fromTop="20" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/d:Logging/f:ILogger.cs" caret="118" fromTop="6" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/f:ApiAreaRegistration.cs" caret="0" fromTop="0" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ProductionsController.cs" caret="1182" fromTop="39" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Global.asax.cs" caret="1069" fromTop="8" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:Massive.cs" caret="1525" fromTop="29" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ApplicationController.cs" caret="1599" fromTop="55" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/d:Logging/f:NLogger.cs" caret="289" fromTop="0" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2915" fromTop="40" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Productions.cs" caret="801" fromTop="21" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Orders.cs" caret="586" fromTop="20" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Items.cs" caret="265" fromTop="7" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Models/f:LearnMVC3DBContext.cs" caret="976" fromTop="21" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="2812" fromTop="8" />
   </RecentFiles>
   <RecentEdits>
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="449" fromTop="13" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="989" fromTop="21" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:FormsAuthTokenStore.cs" caret="1135" fromTop="37" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:FormsAuthTokenStore.cs" caret="1135" fromTop="23" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:FormsAuthTokenStore.cs" caret="1136" fromTop="11" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="3343" fromTop="35" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:ExpandoObjectConverter.cs" caret="268" fromTop="8" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:RequireAdminAttribute.cs" caret="1275" fromTop="35" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:RequireAdminAttribute.cs" caret="1276" fromTop="31" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="484" fromTop="28" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="1044" fromTop="20" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="1316" fromTop="29" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="1993" fromTop="30" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="2225" fromTop="29" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="2788" fromTop="26" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Productions/f:Edit.cshtml" caret="148" fromTop="9" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:LearnMVC3Controller.cs" caret="441" fromTop="18" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Shared/f:_AdminLayout.cshtml" caret="51" fromTop="3" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:LearnMVC3/f:Index.cshtml" caret="461" fromTop="13" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:LearnMVC3/f:Index.cshtml" caret="663" fromTop="28" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:LearnMVC3/f:Index.cshtml" caret="485" fromTop="15" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Customers.cs" caret="261" fromTop="9" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Customers.cs" caret="237" fromTop="9" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="805" fromTop="23" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="1008" fromTop="30" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CruddyControllerBase.cs" caret="727" fromTop="21" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Customers.cs" caret="261" fromTop="12" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:ProductionsV2.cs" caret="627" fromTop="13" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:ProductionsV2.cs" caret="760" fromTop="14" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:LearnMVC3/f:Index.cshtml" caret="413" fromTop="14" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Orders.cs" caret="586" fromTop="18" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="3613" fromTop="31" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="3054" fromTop="18" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="2714" fromTop="21" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="2714" fromTop="18" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="1771" fromTop="19" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="1629" fromTop="25" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="1484" fromTop="22" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="1833" fromTop="33" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Productions.cs" caret="242" fromTop="11" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Orders.cs" caret="318" fromTop="13" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2919" fromTop="31" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ApplicationController.cs" caret="1599" fromTop="31" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1048" fromTop="24" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Items.cs" caret="143" fromTop="6" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="493" fromTop="3" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="705" fromTop="9" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1013" fromTop="24" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="818" fromTop="19" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2900" fromTop="24" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2813" fromTop="21" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2713" fromTop="25" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2224" fromTop="16" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Models/f:LearnMVC3DBContext.cs" caret="986" fromTop="21" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Items.cs" caret="440" fromTop="15" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2031" fromTop="11" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Items.cs" caret="265" fromTop="7" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="3228" fromTop="19" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1665" fromTop="12" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1970" fromTop="16" />
   </RecentEdits>
 </RecentFiles>
