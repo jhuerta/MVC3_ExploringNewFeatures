@@ -10,8 +10,48 @@
     <RecentFiles>
       <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:MembershipSpecs.cs" caret="821" fromTop="6" />
       <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="1518" fromTop="4" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Models/f:LearnMVC3DBContext.cs" caret="834" fromTop="19" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ProductionsController.cs" caret="273" fromTop="0" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="1128" fromTop="8" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Productions.cs" caret="592" fromTop="9" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/f:Web.config" caret="1064" fromTop="0" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="717" fromTop="8" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:App.config" caret="440" fromTop="10" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ShopifyTests.cs" caret="974" fromTop="32" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Orders.cs" caret="230" fromTop="2" />
     </RecentFiles>
-    <RecentEdits />
+    <RecentEdits>
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="4439" fromTop="9" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="4439" fromTop="14" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="4439" fromTop="11" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="4439" fromTop="9" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1211" fromTop="11" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="4444" fromTop="13" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1341" fromTop="12" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="3067" fromTop="3" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1049" fromTop="5" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="3967" fromTop="16" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="3625" fromTop="8" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="3063" fromTop="13" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2762" fromTop="3" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="856" fromTop="14" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="559" fromTop="6" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1234" fromTop="5" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2411" fromTop="11" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1718" fromTop="5" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2411" fromTop="8" />
+      <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1926" fromTop="15" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ShopifyTests.cs" caret="535" fromTop="7" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ShopifyTests.cs" caret="1551" fromTop="8" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ShopifyTests.cs" caret="1208" fromTop="5" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ShopifyTests.cs" caret="2624" fromTop="11" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ShopifyTests.cs" caret="2516" fromTop="6" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ShopifyTests.cs" caret="2204" fromTop="4" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ShopifyTests.cs" caret="1097" fromTop="6" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ShopifyTests.cs" caret="972" fromTop="7" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ShopifyTests.cs" caret="939" fromTop="13" />
+      <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/f:App.config" caret="440" fromTop="10" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -42,12 +82,63 @@
       <Item value="_users" priority="0" />
       <Item value="validEmail" priority="0" />
       <Item value="ViewBag" priority="0" />
+      <Item value="Items`0" priority="6" />
+      <Item value="try" priority="0" />
+      <Item value="var" priority="5" />
+      <Item value="new" priority="5" />
+      <Item value="ICollection" priority="0" />
+      <Item value="items" priority="0" />
+      <Item value="newItem" priority="1" />
+      <Item value="List" priority="3" />
+      <Item value="item" priority="7" />
+      <Item value="return" priority="2" />
+      <Item value="object" priority="1" />
+      <Item value="Orders`0" priority="0" />
+      <Item value="String`0" priority="0" />
+      <Item value="Convert`0" priority="0" />
+      <Item value="LearnMVC3DBContext`0" priority="0" />
+      <Item value="Items" priority="0" />
+      <Item value="grams" priority="1" />
+      <Item value="price" priority="0" />
+      <Item value="quantity" priority="1" />
+      <Item value="title" priority="1" />
+      <Item value="product_id" priority="0" />
+      <Item value="itemsOrder" priority="0" />
+      <Item value="OrderID" priority="0" />
+      <Item value="savedOrder" priority="1" />
+      <Item value="_items" priority="0" />
+      <Item value="xtraItem" priority="0" />
+      <Item value="Ignore" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Exception">
-      <Item value="Message" priority="0" />
+      <Item value="Message" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
       <Item value="IsFalse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="1" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="Select`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LearnMVC3.Model.Items">
+      <Item value="requires_shipping" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToDecimal`0" priority="0" />
+      <Item value="ToInt32`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LearnMVC3.Models.LearnMVC3DBContext">
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.DbSet`1">
+      <Item value="Add`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

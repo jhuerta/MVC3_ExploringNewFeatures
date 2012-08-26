@@ -92,7 +92,6 @@ namespace LearnMVC3.Controllers
             return new Items()
                        {
                            grams = ((int) (new Random()).Next(1000, 10000))/100,
-                           requires_shipping = 1,
                            title = name,
                            product_id = Guid.NewGuid().ToString(),
                            price = (((new Random()).Next(2000, 20000)) / 100).ToString(),
@@ -120,7 +119,6 @@ namespace LearnMVC3.Controllers
                                                       Title = "MVC - Go for it!"
                                                   }
                                           }
-
                        };
         }
 

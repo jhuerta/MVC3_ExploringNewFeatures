@@ -249,7 +249,9 @@
     <Content Include="Public\stylesheets\snapshot\styles\limefresh\logo.png" />
     <Content Include="Public\stylesheets\snapshot\styles\limefresh\navbg.jpg" />
     <Content Include="Public\stylesheets\snapshot\styles\limefresh\stepsbg.jpg" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

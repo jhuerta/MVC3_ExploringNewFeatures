@@ -12,8 +12,7 @@ namespace LearnMVC3.Model
         public string price { get; set; }
         public string product_id { get; set; }
         public int quantity { get; set; }
-        public int requires_shipping { get; set; }
         public string title { get; set; }
-        public int OrderID { get; set; }
+        public string OrderID { get; set; }
     }
 }
