@@ -1,0 +1,680 @@
+08/25/2012 11:40:21:  - New Order Received: 1234
+08/25/2012 11:40:21:  - New Order Received: 1234
+08/25/2012 11:40:22:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:40:22:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:43:23:  - New Order Received: 1234
+08/25/2012 11:43:23:  - New Order Received: 1234
+08/25/2012 11:43:23:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:43:23:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:44:30:  - New Order Received: 1234
+08/25/2012 11:44:30:  - New Order Received: 1234
+08/25/2012 11:44:30:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:44:30:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:44:31:  - New Order Received: 1234
+08/25/2012 11:44:31:  - New Order Received: 1234
+08/25/2012 11:44:32:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:44:32:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:45:30:  - New Order Received: 1234
+08/25/2012 11:45:30:  - New Order Received: 1234
+08/25/2012 11:45:31:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:45:31:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:45:33:  - New Order Received: 1234
+08/25/2012 11:45:33:  - New Order Received: 1234
+08/25/2012 11:45:34:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:45:34:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:47:08:  - New Order Received: 1234
+08/25/2012 11:47:08:  - New Order Received: 1234
+08/25/2012 11:47:08:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:47:08:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:47:21:  - New Order Received: 1234
+08/25/2012 11:47:21:  - New Order Received: 1234
+08/25/2012 11:47:21:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:47:21:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:47:33:  - New Order Received: 1234
+08/25/2012 11:47:33:  - New Order Received: 1234
+08/25/2012 11:47:33:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:47:33:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:47:34:  - New Order Received: 1234
+08/25/2012 11:47:34:  - New Order Received: 1234
+08/25/2012 11:47:35:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:47:35:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:48:39:  - New Order Received: 1234
+08/25/2012 11:48:39:  - New Order Received: 1234
+08/25/2012 11:48:39:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:48:39:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:50:38:  - New Order Received: 1234
+08/25/2012 11:50:38:  - New Order Received: 1234
+08/25/2012 11:50:38:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:50:38:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:50:43:  - New Order Received: 1234
+08/25/2012 11:50:43:  - New Order Received: 1234
+08/25/2012 11:50:44:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:50:44:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:55:20: Hey - I called the Home Page!!!!
+08/25/2012 11:55:20: Hey - I called the Home Page!!!!
+08/25/2012 11:55:25: Error DB: An error occurred while saving entities that do not expose foreign key properties for their relationships. The EntityEntries property will return null because a single entity cannot be identified as the source of the exception. Handling of exceptions while saving can be made easier by exposing foreign key properties in your entity types. See the InnerException for details.
+08/25/2012 11:55:25: Error DB: An error occurred while saving entities that do not expose foreign key properties for their relationships. The EntityEntries property will return null because a single entity cannot be identified as the source of the exception. Handling of exceptions while saving can be made easier by exposing foreign key properties in your entity types. See the InnerException for details.
+08/25/2012 11:55:43:  - New Order Received: 1234
+08/25/2012 11:55:43:  - New Order Received: 1234
+08/25/2012 11:55:43:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:55:43:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 11:55:52: Hey - I called the Home Page!!!!
+08/25/2012 11:55:52: Hey - I called the Home Page!!!!
+08/25/2012 11:55:52: Error DB: An error occurred while saving entities that do not expose foreign key properties for their relationships. The EntityEntries property will return null because a single entity cannot be identified as the source of the exception. Handling of exceptions while saving can be made easier by exposing foreign key properties in your entity types. See the InnerException for details.
+08/25/2012 11:55:52: Error DB: An error occurred while saving entities that do not expose foreign key properties for their relationships. The EntityEntries property will return null because a single entity cannot be identified as the source of the exception. Handling of exceptions while saving can be made easier by exposing foreign key properties in your entity types. See the InnerException for details.
+08/25/2012 11:57:35: Hey - I called the Home Page!!!!
+08/25/2012 11:57:35: Hey - I called the Home Page!!!!
+08/25/2012 12:00:16: Hey - I called the Home Page!!!!
+08/25/2012 12:00:16: Hey - I called the Home Page!!!!
+08/25/2012 12:02:24:  - New Order Received: 1234
+08/25/2012 12:02:24:  - New Order Received: 1234
+08/25/2012 12:02:24:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:02:24:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:02:26:  - New Order Received: 1234
+08/25/2012 12:02:26:  - New Order Received: 1234
+08/25/2012 12:02:26:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:02:26:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:03:29:  - New Order Received: 1234
+08/25/2012 12:03:29:  - New Order Received: 1234
+08/25/2012 12:03:29:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:03:29:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:05:33:  - New Order Received: 1234
+08/25/2012 12:05:33:  - New Order Received: 1234
+08/25/2012 12:05:34:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:05:34:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:09:09:  - New Order Received: 1234
+08/25/2012 12:09:09:  - New Order Received: 1234
+08/25/2012 12:09:09:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:09:09:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:10:39:  - New Order Received: 1234
+08/25/2012 12:10:39:  - New Order Received: 1234
+08/25/2012 12:10:40:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:10:40:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:11:11: Hey - I called the Home Page!!!!
+08/25/2012 12:11:11: Hey - I called the Home Page!!!!
+08/25/2012 12:12:45:  - New Order Received: 1234
+08/25/2012 12:12:45:  - New Order Received: 1234
+08/25/2012 12:12:45:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:12:45:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:12:46:  - New Order Received: 1234
+08/25/2012 12:12:46:  - New Order Received: 1234
+08/25/2012 12:12:46:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:12:46:   -EXCEPTION: No mapping exists from DbType LearnMVC3.DynamicModel+<Query>d__15 to a known SqlCeType.
+08/25/2012 12:14:02:  - New Order Received: 1234
+08/25/2012 12:14:02:  - New Order Received: 1234
+08/25/2012 12:14:06:  - New Order Received: 1234
+08/25/2012 12:14:06:  - New Order Received: 1234
+08/25/2012 12:14:51:  - New Order Received: 1234
+08/25/2012 12:14:51:  - New Order Received: 1234
+08/25/2012 12:15:10:  - New Order Received: 1234
+08/25/2012 12:15:10:  - New Order Received: 1234
+08/25/2012 12:15:11:  - New Order Received: 1234
+08/25/2012 12:15:11:  - New Order Received: 1234
+08/25/2012 12:15:11:  - New Order Received: 1234
+08/25/2012 12:15:11:  - New Order Received: 1234
+08/25/2012 12:15:11:  - New Order Received: 1234
+08/25/2012 12:15:11:  - New Order Received: 1234
+08/25/2012 12:15:12:  - New Order Received: 1234
+08/25/2012 12:15:12:  - New Order Received: 1234
+08/25/2012 12:15:12:  - New Order Received: 1234
+08/25/2012 12:15:12:  - New Order Received: 1234
+08/25/2012 12:15:12:  - New Order Received: 1234
+08/25/2012 12:15:12:  - New Order Received: 1234
+08/25/2012 12:15:12:  - New Order Received: 1234
+08/25/2012 12:15:12:  - New Order Received: 1234
+08/25/2012 12:15:13:  - New Order Received: 1234
+08/25/2012 12:15:13:  - New Order Received: 1234
+08/25/2012 12:15:13:  - New Order Received: 1234
+08/25/2012 12:15:13:  - New Order Received: 1234
+08/25/2012 12:15:13:  - New Order Received: 1234
+08/25/2012 12:15:13:  - New Order Received: 1234
+08/25/2012 12:15:13:  - New Order Received: 1234
+08/25/2012 12:15:13:  - New Order Received: 1234
+08/25/2012 12:15:13:  - New Order Received: 1234
+08/25/2012 12:15:13:  - New Order Received: 1234
+08/25/2012 12:15:14:  - New Order Received: 1234
+08/25/2012 12:15:14:  - New Order Received: 1234
+08/25/2012 12:15:14:  - New Order Received: 1234
+08/25/2012 12:15:14:  - New Order Received: 1234
+08/25/2012 12:15:14:  - New Order Received: 1234
+08/25/2012 12:15:14:  - New Order Received: 1234
+08/25/2012 12:15:17:  - New Order Received: 1234
+08/25/2012 12:15:17:  - New Order Received: 1234
+08/25/2012 12:15:19:  - New Order Received: 1234
+08/25/2012 12:15:19:  - New Order Received: 1234
+08/25/2012 12:15:59:  - New Order Received: 1234
+08/25/2012 12:15:59:  - New Order Received: 1234
+08/25/2012 12:16:14:  - New Order Received: 1234
+08/25/2012 12:16:14:  - New Order Received: 1234
+08/25/2012 12:16:15:  - New Order Received: 1234
+08/25/2012 12:16:15:  - New Order Received: 1234
+08/25/2012 12:16:19:  - New Order Received: 1234
+08/25/2012 12:16:19:  - New Order Received: 1234
+08/25/2012 12:16:46:  - New Order Received: 1234
+08/25/2012 12:16:46:  - New Order Received: 1234
+08/25/2012 12:16:46:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:16:46:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:17:14:  - New Order Received: 1234
+08/25/2012 12:17:14:  - New Order Received: 1234
+08/25/2012 12:17:14:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:17:14:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:17:19:  - New Order Received: 1234
+08/25/2012 12:17:19:  - New Order Received: 1234
+08/25/2012 12:17:19:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:17:19:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:17:20:  - New Order Received: 1234
+08/25/2012 12:17:20:  - New Order Received: 1234
+08/25/2012 12:17:20:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:17:20:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:18:24:  - New Order Received: 1234
+08/25/2012 12:18:24:  - New Order Received: 1234
+08/25/2012 12:18:24:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:18:24:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:18:25:  - New Order Received: 1234
+08/25/2012 12:18:25:  - New Order Received: 1234
+08/25/2012 12:18:25:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:18:25:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:19:09:  - New Order Received: 1234
+08/25/2012 12:19:09:  - New Order Received: 1234
+08/25/2012 12:19:09:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:19:09:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:19:29:  - New Order Received: 1234
+08/25/2012 12:19:29:  - New Order Received: 1234
+08/25/2012 12:19:29:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:19:29:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:20:14:  - New Order Received: 1234
+08/25/2012 12:20:14:  - New Order Received: 1234
+08/25/2012 12:20:14:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:20:14:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:20:19:  - New Order Received: 1234
+08/25/2012 12:20:19:  - New Order Received: 1234
+08/25/2012 12:20:19:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:20:19:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:21:15:  - New Order Received: 1234
+08/25/2012 12:21:15:  - New Order Received: 1234
+08/25/2012 12:21:16:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:21:16:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:21:17:  - New Order Received: 1234
+08/25/2012 12:21:17:  - New Order Received: 1234
+08/25/2012 12:21:17:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:21:17:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:21:49:  - New Order Received: 1234
+08/25/2012 12:21:49:  - New Order Received: 1234
+08/25/2012 12:21:49:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:21:49:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:22:19:  - New Order Received: 1234
+08/25/2012 12:22:19:  - New Order Received: 1234
+08/25/2012 12:22:19:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:22:19:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:23:13:  - New Order Received: 1234
+08/25/2012 12:23:13:  - New Order Received: 1234
+08/25/2012 12:23:13:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:23:13:   > Exception: No mapping exists from DbType System.Web.Helpers.DynamicJsonArray to a known SqlCeType. 
+08/25/2012 12:23:58:  - New Order Received: 1234
+08/25/2012 12:23:58:  - New Order Received: 1234
+08/25/2012 12:23:58:  - New Order Received: 1234
+08/25/2012 12:23:58:  - New Order Received: 1234
+08/25/2012 12:24:13:   > Exception: Cannot convert type 'System.Web.Helpers.DynamicJsonArray' to 'System.Collections.Generic.List<LearnMVC3.Model.Items>' 
+08/25/2012 12:24:13:   > Exception: Cannot convert type 'System.Web.Helpers.DynamicJsonArray' to 'System.Collections.Generic.List<LearnMVC3.Model.Items>' 
+08/25/2012 12:24:13:   > Exception: Cannot convert type 'System.Web.Helpers.DynamicJsonArray' to 'System.Collections.Generic.List<LearnMVC3.Model.Items>' 
+08/25/2012 12:24:13:   > Exception: Cannot convert type 'System.Web.Helpers.DynamicJsonArray' to 'System.Collections.Generic.List<LearnMVC3.Model.Items>' 
+08/25/2012 12:24:34:  - New Order Received: 1234
+08/25/2012 12:24:34:  - New Order Received: 1234
+08/25/2012 12:24:34:   > Exception: Cannot convert type 'System.Web.Helpers.DynamicJsonArray' to 'System.Collections.Generic.List<LearnMVC3.Model.Items>' 
+08/25/2012 12:24:34:   > Exception: Cannot convert type 'System.Web.Helpers.DynamicJsonArray' to 'System.Collections.Generic.List<LearnMVC3.Model.Items>' 
+08/25/2012 12:24:35:  - New Order Received: 1234
+08/25/2012 12:24:35:  - New Order Received: 1234
+08/25/2012 12:24:35:   > Exception: Cannot convert type 'System.Web.Helpers.DynamicJsonArray' to 'System.Collections.Generic.List<LearnMVC3.Model.Items>' 
+08/25/2012 12:24:35:   > Exception: Cannot convert type 'System.Web.Helpers.DynamicJsonArray' to 'System.Collections.Generic.List<LearnMVC3.Model.Items>' 
+08/25/2012 12:32:22:  - New Order Received: 1234
+08/25/2012 12:32:22:  - New Order Received: 1234
+08/25/2012 12:32:22:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:32:22:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:32:23:  - New Order Received: 1234
+08/25/2012 12:32:23:  - New Order Received: 1234
+08/25/2012 12:32:23:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:32:23:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:32:29:  - New Order Received: 1234
+08/25/2012 12:32:29:  - New Order Received: 1234
+08/25/2012 12:32:29:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:32:29:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:33:04:  - New Order Received: 1234
+08/25/2012 12:33:04:  - New Order Received: 1234
+08/25/2012 12:33:04:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:33:04:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:33:17:  - New Order Received: 1234
+08/25/2012 12:33:17:  - New Order Received: 1234
+08/25/2012 12:33:51:  - New Order Received: 1234
+08/25/2012 12:33:51:  - New Order Received: 1234
+08/25/2012 12:33:51:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:33:51:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:33:51:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:33:51:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:36:27:  - New Order Received: 1234
+08/25/2012 12:36:28:  - New Order Received: 1234
+08/25/2012 12:36:28:  - New Order Received: 1234
+08/25/2012 12:36:27:  - New Order Received: 1234
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:  - New Order Received: 1234
+08/25/2012 12:38:19:  - New Order Received: 1234
+08/25/2012 12:38:19:  - New Order Received: 1234
+08/25/2012 12:38:19:  - New Order Received: 1234
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:  - New Order Received: 1234
+08/25/2012 12:38:19:  - New Order Received: 1234
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:  - New Order Received: 1234
+08/25/2012 12:38:19:  - New Order Received: 1234
+08/25/2012 12:38:19:  - New Order Received: 1234
+08/25/2012 12:38:19:  - New Order Received: 1234
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:19:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:20:  - New Order Received: 1234
+08/25/2012 12:38:20:  - New Order Received: 1234
+08/25/2012 12:38:20:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:38:20:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:40:44:  - New Order Received: 1234
+08/25/2012 12:40:44:  - New Order Received: 1234
+08/25/2012 12:40:44:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:40:44:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:41:15:  - New Order Received: 1234
+08/25/2012 12:41:15:  - New Order Received: 1234
+08/25/2012 12:41:15:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:41:15:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:41:16:  - New Order Received: 1234
+08/25/2012 12:41:16:  - New Order Received: 1234
+08/25/2012 12:41:16:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:41:16:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:42:20:  - New Order Received: 1234
+08/25/2012 12:42:20:  - New Order Received: 1234
+08/25/2012 12:42:20:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:42:20:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:42:21:  - New Order Received: 1234
+08/25/2012 12:42:21:  - New Order Received: 1234
+08/25/2012 12:42:21:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:42:21:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:42:35:  - New Order Received: 1234
+08/25/2012 12:42:35:  - New Order Received: 1234
+08/25/2012 12:42:35:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:42:35:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:44:25:  - New Order Received: 1234
+08/25/2012 12:44:25:  - New Order Received: 1234
+08/25/2012 12:44:25:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:44:25:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:44:25:  - New Order Received: 1234
+08/25/2012 12:44:25:  - New Order Received: 1234
+08/25/2012 12:44:25:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:44:25:   > Exception: No mapping exists from DbType System.Collections.Generic.List`1[LearnMVC3.Model.Items] to a known SqlCeType. 
+08/25/2012 12:45:12:  - New Order Received: 1234
+08/25/2012 12:45:12:  - New Order Received: 1234
+08/25/2012 12:45:12:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:45:12:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:45:13:  - New Order Received: 1234
+08/25/2012 12:45:13:  - New Order Received: 1234
+08/25/2012 12:45:13:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:45:13:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:45:25:  - New Order Received: 1234
+08/25/2012 12:45:25:  - New Order Received: 1234
+08/25/2012 12:45:25:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:45:25:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:46:19:  - New Order Received: 1234
+08/25/2012 12:46:19:  - New Order Received: 1234
+08/25/2012 12:46:19:  - New Order Received: 1234
+08/25/2012 12:46:19:  - New Order Received: 1234
+08/25/2012 12:46:19:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:46:19:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:46:19:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:46:19:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:47:26:  - New Order Received: 1234
+08/25/2012 12:47:26:  - New Order Received: 1234
+08/25/2012 12:47:26:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:47:26:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:47:30:  - New Order Received: 1234
+08/25/2012 12:47:30:  - New Order Received: 1234
+08/25/2012 12:47:30:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:47:30:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:47:31:  - New Order Received: 1234
+08/25/2012 12:47:31:  - New Order Received: 1234
+08/25/2012 12:47:31:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:47:31:   > Exception: No mapping exists from DbType LearnMVC3.Model.Items[] to a known SqlCeType. 
+08/25/2012 12:51:07:  - New Order Received: 1234
+08/25/2012 12:51:07:  - New Order Received: 1234
+08/25/2012 12:51:07:   > Exception: Cannot implicitly convert type 'string' to 'System.DateTime' 
+08/25/2012 12:51:07:   > Exception: Cannot implicitly convert type 'string' to 'System.DateTime' 
+08/25/2012 12:51:20:  - New Order Received: 1234
+08/25/2012 12:51:20:  - New Order Received: 1234
+08/25/2012 12:51:20:   > Exception: Cannot implicitly convert type 'string' to 'System.DateTime' 
+08/25/2012 12:51:20:   > Exception: Cannot implicitly convert type 'string' to 'System.DateTime' 
+08/25/2012 12:51:21:  - New Order Received: 1234
+08/25/2012 12:51:21:  - New Order Received: 1234
+08/25/2012 12:51:21:   > Exception: Cannot implicitly convert type 'string' to 'System.DateTime' 
+08/25/2012 12:51:21:   > Exception: Cannot implicitly convert type 'string' to 'System.DateTime' 
+08/25/2012 12:51:55:  - New Order Received: 1234
+08/25/2012 12:51:55:  - New Order Received: 1234
+08/25/2012 12:52:16:   > Exception: Cannot implicitly convert type 'string' to 'System.DateTime' 
+08/25/2012 12:52:16:   > Exception: Cannot implicitly convert type 'string' to 'System.DateTime' 
+08/25/2012 12:52:25:  - New Order Received: 1234
+08/25/2012 12:52:25:  - New Order Received: 1234
+08/25/2012 12:52:25:   > Exception: Cannot implicitly convert type 'string' to 'System.DateTime' 
+08/25/2012 12:52:25:   > Exception: Cannot implicitly convert type 'string' to 'System.DateTime' 
+08/25/2012 12:53:23:  - New Order Received: 1234
+08/25/2012 12:53:23:  - New Order Received: 1234
+08/25/2012 12:53:23:   > Exception: Cannot implicitly convert type 'string' to 'decimal' 
+08/25/2012 12:53:23:   > Exception: Cannot implicitly convert type 'string' to 'decimal' 
+08/25/2012 12:54:00:  - New Order Received: 1234
+08/25/2012 12:54:00:  - New Order Received: 1234
+08/25/2012 12:54:00:   > Exception: Cannot implicitly convert type 'string' to 'decimal' 
+08/25/2012 12:54:00:   > Exception: Cannot implicitly convert type 'string' to 'decimal' 
+08/25/2012 12:54:29:  - New Order Received: 1234
+08/25/2012 12:54:29:  - New Order Received: 1234
+08/25/2012 12:54:29:  - New Order Received: 1234
+08/25/2012 12:54:29:  - New Order Received: 1234
+08/25/2012 12:54:30:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 12:54:30:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 12:54:30:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 12:54:30:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 12:54:48:  - New Order Received: 1234
+08/25/2012 12:54:48:  - New Order Received: 1234
+08/25/2012 12:54:50:  - New Order Received: 1234
+08/25/2012 12:54:50:  - New Order Received: 1234
+08/25/2012 12:55:30:  - New Order Received: 1234
+08/25/2012 12:55:30:  - New Order Received: 1234
+08/25/2012 12:55:35:  - New Order Received: 1234
+08/25/2012 12:55:35:  - New Order Received: 1234
+08/25/2012 12:57:03:  - New Order Received: 1234
+08/25/2012 12:57:03:  - New Order Received: 1234
+08/25/2012 12:57:03:  - New Order Received: 1234
+08/25/2012 12:57:03:  - New Order Received: 1234
+08/25/2012 12:57:03:  - New Order Received: 1234
+08/25/2012 12:57:03:  - New Order Received: 1234
+08/25/2012 12:57:03:  - New Order Received: 1234
+08/25/2012 12:57:03:  - New Order Received: 1234
+08/25/2012 12:57:03:  - New Order Received: 1234
+08/25/2012 12:57:03:  - New Order Received: 1234
+08/25/2012 12:57:31:  - New Order Received: 1234
+08/25/2012 12:57:31:  - New Order Received: 1234
+08/25/2012 12:57:41:  - New Order Received: 1234
+08/25/2012 12:57:41:  - New Order Received: 1234
+08/25/2012 12:58:05:  - New Order Received: 1234
+08/25/2012 12:58:05:  - New Order Received: 1234
+08/25/2012 12:59:35:  - New Order Received: 1234
+08/25/2012 12:59:35:  - New Order Received: 1234
+08/25/2012 13:01:30:  - New Order Received: 1234
+08/25/2012 13:01:30:  - New Order Received: 1234
+08/25/2012 13:04:35:  - New Order Received: 1234
+08/25/2012 13:04:35:  - New Order Received: 1234
+08/25/2012 13:08:21:  - New Order Received: 1234
+08/25/2012 13:08:21:  - New Order Received: 1234
+08/25/2012 13:12:50:  - New Order Received: 1234
+08/25/2012 13:12:50:  - New Order Received: 1234
+08/25/2012 13:15:25:  - New Order Received: 1234
+08/25/2012 13:15:25:  - New Order Received: 1234
+08/25/2012 13:32:09:  - New Order Received: 1234
+08/25/2012 13:32:09:  - New Order Received: 1234
+08/25/2012 13:32:11:  - New Order Received: 1234
+08/25/2012 13:32:11:  - New Order Received: 1234
+08/25/2012 13:39:45:  - New Order Received: 1234
+08/25/2012 13:39:45:  - New Order Received: 1234
+08/25/2012 13:39:46:   > Exception: Cannot implicitly convert type 'LearnMVC3.Model.Orders' to 'string' 
+08/25/2012 13:39:46:   > Exception: Cannot implicitly convert type 'LearnMVC3.Model.Orders' to 'string' 
+08/25/2012 13:39:47:  - New Order Received: 1234
+08/25/2012 13:39:47:  - New Order Received: 1234
+08/25/2012 13:39:47:   > Exception: Cannot implicitly convert type 'LearnMVC3.Model.Orders' to 'string' 
+08/25/2012 13:39:47:   > Exception: Cannot implicitly convert type 'LearnMVC3.Model.Orders' to 'string' 
+08/25/2012 13:42:48: Hey - I called the Home Page!!!!
+08/25/2012 13:42:48: Hey - I called the Home Page!!!!
+08/25/2012 13:43:01:  - New Order Received: 1234
+08/25/2012 13:43:01:  - New Order Received: 1234
+08/25/2012 13:43:01:   > Exception: Cannot implicitly convert type 'LearnMVC3.Model.Orders' to 'int' 
+08/25/2012 13:43:01:   > Exception: Cannot implicitly convert type 'LearnMVC3.Model.Orders' to 'int' 
+08/25/2012 13:43:16:  - New Order Received: 1234
+08/25/2012 13:43:16:  - New Order Received: 1234
+08/25/2012 13:43:16:   > Exception: Cannot implicitly convert type 'LearnMVC3.Model.Orders' to 'int' 
+08/25/2012 13:43:16:   > Exception: Cannot implicitly convert type 'LearnMVC3.Model.Orders' to 'int' 
+08/25/2012 13:43:58:  - New Order Received: 1234
+08/25/2012 13:43:58:  - New Order Received: 1234
+08/25/2012 13:43:58:   > Exception: Cannot implicitly convert type 'LearnMVC3.Model.Orders' to 'int' 
+08/25/2012 13:43:58:   > Exception: Cannot implicitly convert type 'LearnMVC3.Model.Orders' to 'int' 
+08/25/2012 13:45:05:  - New Order Received: 1234
+08/25/2012 13:45:05:  - New Order Received: 1234
+08/25/2012 13:45:05:  - New Order Received: 1234
+08/25/2012 13:45:05:  - New Order Received: 1234
+08/25/2012 13:45:31:   > Exception: Unable to cast object of type 'LearnMVC3.Model.Orders' to type 'System.IConvertible'. 
+08/25/2012 13:45:31:   > Exception: Unable to cast object of type 'LearnMVC3.Model.Orders' to type 'System.IConvertible'. 
+08/25/2012 13:45:31:   > Exception: Unable to cast object of type 'LearnMVC3.Model.Orders' to type 'System.IConvertible'. 
+08/25/2012 13:45:31:   > Exception: Unable to cast object of type 'LearnMVC3.Model.Orders' to type 'System.IConvertible'. 
+08/25/2012 13:46:01:  - New Order Received: 1234
+08/25/2012 13:46:01:  - New Order Received: 1234
+08/25/2012 13:46:01:   > Exception: Unable to cast object of type 'LearnMVC3.Model.Orders' to type 'System.IConvertible'. 
+08/25/2012 13:46:01:   > Exception: Unable to cast object of type 'LearnMVC3.Model.Orders' to type 'System.IConvertible'. 
+08/25/2012 13:46:41:  - New Order Received: 1234
+08/25/2012 13:46:41:  - New Order Received: 1234
+08/25/2012 13:47:40:  - New Order Received: 1234
+08/25/2012 13:47:40:  - New Order Received: 1234
+08/25/2012 13:47:42:  - New Order Received: 1234
+08/25/2012 13:47:42:  - New Order Received: 1234
+08/25/2012 13:47:45:  - New Order Received: 1234
+08/25/2012 13:47:45:  - New Order Received: 1234
+08/25/2012 13:47:45:  - New Order Received: 1234
+08/25/2012 13:47:45:  - New Order Received: 1234
+08/25/2012 13:47:46:  - New Order Received: 1234
+08/25/2012 13:47:46:  - New Order Received: 1234
+08/25/2012 13:47:50:  - New Order Received: 1234
+08/25/2012 13:47:50:  - New Order Received: 1234
+08/25/2012 13:48:06:  - New Order Received: 1234
+08/25/2012 13:48:06:  - New Order Received: 1234
+08/25/2012 13:48:07:  - New Order Received: 1234
+08/25/2012 13:48:07:  - New Order Received: 1234
+08/25/2012 13:48:59:  - New Order Received: 1234
+08/25/2012 13:48:59:  - New Order Received: 1234
+08/25/2012 13:49:55:  - New Order Received: 1234
+08/25/2012 13:49:55:  - New Order Received: 1234
+08/25/2012 13:50:07:  - New Order Received: 1234
+08/25/2012 13:50:07:  - New Order Received: 1234
+08/25/2012 13:50:28: Hey - I called the Home Page!!!!
+08/25/2012 13:50:28: Hey - I called the Home Page!!!!
+08/25/2012 13:52:17: Hey - I called the Home Page!!!!
+08/25/2012 13:52:17: Hey - I called the Home Page!!!!
+08/25/2012 13:55:56:  - New Order Received: 1234
+08/25/2012 13:55:56:  - New Order Received: 1234
+08/25/2012 13:55:57:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:55:57:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:55:58:  - New Order Received: 1234
+08/25/2012 13:55:58:  - New Order Received: 1234
+08/25/2012 13:55:58:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:55:58:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:56:11:  - New Order Received: 1234
+08/25/2012 13:56:11:  - New Order Received: 1234
+08/25/2012 13:56:11:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:56:11:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:56:31:  - New Order Received: 1234
+08/25/2012 13:56:31:  - New Order Received: 1234
+08/25/2012 13:56:31:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:56:31:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:57:02:  - New Order Received: 1234
+08/25/2012 13:57:02:  - New Order Received: 1234
+08/25/2012 13:57:02:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:57:02:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:57:26:  - New Order Received: 1234
+08/25/2012 13:57:26:  - New Order Received: 1234
+08/25/2012 13:57:26:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:57:26:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:57:53:  - New Order Received: 1234
+08/25/2012 13:57:53:  - New Order Received: 1234
+08/25/2012 13:57:53:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:57:53:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:57:54:  - New Order Received: 1234
+08/25/2012 13:57:54:  - New Order Received: 1234
+08/25/2012 13:57:54:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:57:54:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:58:18:  - New Order Received: 1234
+08/25/2012 13:58:18:  - New Order Received: 1234
+08/25/2012 13:58:19:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:58:19:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:58:39: Hey - I called the Home Page!!!!
+08/25/2012 13:58:39: Hey - I called the Home Page!!!!
+08/25/2012 13:58:56:  - New Order Received: 1234
+08/25/2012 13:58:56:  - New Order Received: 1234
+08/25/2012 13:58:56:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:58:56:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 13:59:08: Hey - I called the Home Page!!!!
+08/25/2012 13:59:08: Hey - I called the Home Page!!!!
+08/25/2012 13:59:08: Hey - I called the Home Page!!!!
+08/25/2012 13:59:08: Hey - I called the Home Page!!!!
+08/25/2012 13:59:08: Hey - I called the Home Page!!!!
+08/25/2012 13:59:08: Hey - I called the Home Page!!!!
+08/25/2012 13:59:08: Hey - I called the Home Page!!!!
+08/25/2012 13:59:08: Hey - I called the Home Page!!!!
+08/25/2012 13:59:20: Hey - I called the Home Page!!!!
+08/25/2012 13:59:20: Hey - I called the Home Page!!!!
+08/25/2012 13:59:21: Hey - I called the Home Page!!!!
+08/25/2012 13:59:21: Hey - I called the Home Page!!!!
+08/25/2012 13:59:50: Hey - I called the Home Page!!!!
+08/25/2012 13:59:50: Hey - I called the Home Page!!!!
+08/25/2012 14:00:05: Hey - I called the Home Page!!!!
+08/25/2012 14:00:05: Hey - I called the Home Page!!!!
+08/25/2012 14:00:06: Hey - I called the Home Page!!!!
+08/25/2012 14:00:06: Hey - I called the Home Page!!!!
+08/25/2012 14:00:07: Hey - I called the Home Page!!!!
+08/25/2012 14:00:07: Hey - I called the Home Page!!!!
+08/25/2012 14:00:07: Hey - I called the Home Page!!!!
+08/25/2012 14:00:07: Hey - I called the Home Page!!!!
+08/25/2012 14:00:07: Hey - I called the Home Page!!!!
+08/25/2012 14:00:07: Hey - I called the Home Page!!!!
+08/25/2012 14:00:08: Hey - I called the Home Page!!!!
+08/25/2012 14:00:08: Hey - I called the Home Page!!!!
+08/25/2012 14:00:08: Hey - I called the Home Page!!!!
+08/25/2012 14:00:08: Hey - I called the Home Page!!!!
+08/25/2012 14:00:21:  - New Order Received: 1234
+08/25/2012 14:00:21:  - New Order Received: 1234
+08/25/2012 14:00:22:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 14:00:22:   > Exception: The process cannot access the file 'C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf' because it is being used by another process. 
+08/25/2012 14:00:31: Hey - I called the Home Page!!!!
+08/25/2012 14:00:31: Hey - I called the Home Page!!!!
+08/25/2012 14:00:32: Hey - I called the Home Page!!!!
+08/25/2012 14:00:32: Hey - I called the Home Page!!!!
+08/25/2012 14:00:40: Hey - I called the Home Page!!!!
+08/25/2012 14:00:40: Hey - I called the Home Page!!!!
+08/25/2012 14:00:40: Hey - I called the Home Page!!!!
+08/25/2012 14:00:40: Hey - I called the Home Page!!!!
+08/25/2012 14:00:48: Hey - I called the Home Page!!!!
+08/25/2012 14:00:48: Hey - I called the Home Page!!!!
+08/25/2012 14:01:39:  - New Order Received: 1234
+08/25/2012 14:01:39:  - New Order Received: 1234
+08/25/2012 14:01:40:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:01:40:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:01:48: Hey - I called the Home Page!!!!
+08/25/2012 14:01:48: Hey - I called the Home Page!!!!
+08/25/2012 14:02:01:  - New Order Received: 1234
+08/25/2012 14:02:01:  - New Order Received: 1234
+08/25/2012 14:02:01:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:02:01:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:02:03:  - New Order Received: 1234
+08/25/2012 14:02:03:  - New Order Received: 1234
+08/25/2012 14:02:03:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:02:03:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:03:07:  - New Order Received: 1234
+08/25/2012 14:03:07:  - New Order Received: 1234
+08/25/2012 14:03:07:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:03:07:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:03:57:  - New Order Received: 1234
+08/25/2012 14:03:57:  - New Order Received: 1234
+08/25/2012 14:03:57:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:03:57:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:04:13:  - New Order Received: 1234
+08/25/2012 14:04:13:  - New Order Received: 1234
+08/25/2012 14:04:14:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:04:14:   > Exception: Cannot implicitly convert type 'int' to 'string' 
+08/25/2012 14:05:21:  - New Order Received: 1234
+08/25/2012 14:05:21:  - New Order Received: 1234
+08/25/2012 14:05:21:  - New Order Received: 1234
+08/25/2012 14:05:21:  - New Order Received: 1234
+08/25/2012 14:05:51:  - New Order Received: 1234
+08/25/2012 14:05:51:  - New Order Received: 1234
+08/25/2012 14:08:06: Hey - I called the Home Page!!!!
+08/25/2012 14:08:06: Hey - I called the Home Page!!!!
+08/25/2012 14:08:20:  - New Order Received: 1234
+08/25/2012 14:08:20:  - New Order Received: 1234
+08/25/2012 14:08:29:  - New Order Received: 1234
+08/25/2012 14:08:29:  - New Order Received: 1234
+08/25/2012 14:09:01:  - New Order Received: 1234
+08/25/2012 14:09:01:  - New Order Received: 1234
+08/25/2012 14:09:16:  - New Order Received: 1234
+08/25/2012 14:09:16:  - New Order Received: 1234
+08/25/2012 14:09:21:  - New Order Received: 1234
+08/25/2012 14:09:21:  - New Order Received: 1234
+08/25/2012 14:09:28:  - New Order Received: 1234
+08/25/2012 14:09:28:  - New Order Received: 1234
+08/25/2012 14:09:32:  - New Order Received: 1234
+08/25/2012 14:09:32:  - New Order Received: 1234
+08/25/2012 14:09:38:  - New Order Received: 1234
+08/25/2012 14:09:38:  - New Order Received: 1234
+08/25/2012 14:09:54:  - New Order Received: 1234
+08/25/2012 14:09:54:  - New Order Received: 1234
+08/25/2012 14:10:06:  - New Order Received: 1234
+08/25/2012 14:10:06:  - New Order Received: 1234
+08/25/2012 14:19:07:  - New Order Received: 1234
+08/25/2012 14:19:07:  - New Order Received: 1234
+08/25/2012 14:22:22:  - New Order Received: 1234
+08/25/2012 14:22:22:  - New Order Received: 1234
+08/25/2012 14:26:17:  - New Order Received: 1234
+08/25/2012 14:26:17:  - New Order Received: 1234
+08/25/2012 16:09:46:  - New Order Received: 1234
+08/25/2012 16:09:46:  - New Order Received: 1234
+08/25/2012 16:11:42:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:11:42:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:11:42:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:11:42:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:11:55:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:11:55:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:14:06:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:14:06:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:19:16:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:19:16:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:25:17:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:25:17:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:29:09:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:29:09:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:30:28:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:30:28:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:30:37:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:30:37:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:31:35:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:31:35:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:32:17:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:32:17:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:33:12:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:33:12:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:33:32:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:33:32:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:33:45:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:33:45:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:34:22:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:34:22:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:36:01:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:36:01:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:36:01:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:36:01:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:40:56:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:40:56:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:42:02:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 16:42:02:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 17:18:03:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 17:18:03:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 17:18:20:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 17:18:20:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 17:21:10:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 17:21:10:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 17:21:13:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 17:21:13:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 17:22:54:   > Exception: Cannot perform runtime binding on a null reference 
+08/25/2012 17:22:54:   > Exception: Cannot perform runtime binding on a null reference 
