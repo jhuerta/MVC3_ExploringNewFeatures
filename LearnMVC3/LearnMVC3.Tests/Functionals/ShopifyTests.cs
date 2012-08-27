@@ -25,17 +25,24 @@ namespace LearnMVC3.Tests.Functionals
             _orders.Delete();
         }
 
-        [Test]
+        [TestCase(1, 1, 2)]
+        [TestCase(2, 2, 4)]
+        [TestCase(3, 3, 6)]
+        [TestCase(4, 4, 8)]
         [Ignore("This test is working on the same database as live. The test is the client, consuming the real services.There, databases should be shared. Data will be deleted.")]
-        public void recevier_should_saver_order()
+        public void recevier_should_saver_order_and_items(int numOftimes, int numOforders, int numOfItems)
         {
 
             var url = "http://localhost/LearnMVC3/Api/Shopify/Receiver";
             //AlternativeWayToPing_AlsoWorking(GetJson(), url);
-            Ping(url, GetJson());
 
-           Assert.AreEqual(1, _orders.All().Count());
-            Assert.AreEqual(2, _items.All().Count());
+            for (int i = 0; i < numOftimes; i++)
+            {
+                Ping(url, GetJson());
+            }
+
+           Assert.AreEqual(numOforders, _orders.All().Count());
+           Assert.AreEqual(numOfItems, _items.All().Count());
         }
 
         public static bool AlternativeWayToPing_AlsoWorking(string data, string url)
