@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\LearnMVC3.Models.LearnMVC3DBContext.sdf" />
+    <Content Include="App_Data\LearnMVC3.Models.LearnMVC3DBContext_Test.sdf" />
     <Content Include="App_Data\Users_Dev.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

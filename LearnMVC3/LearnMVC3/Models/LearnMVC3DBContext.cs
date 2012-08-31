@@ -8,6 +8,7 @@ namespace LearnMVC3.Models
 {
     public class LearnMVC3DBContext : DbContext
     {
+
         // You can add custom code to this file. Changes will not be overwritten.
         // 
         // If you want Entity Framework to drop and regenerate your database
@@ -16,6 +17,10 @@ namespace LearnMVC3.Models
         // Note: this will destroy and re-create your database with every model change.
         // 
         // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<LearnMVC3.Models.LearnMVC3DBContext>());
+
+        public LearnMVC3DBContext(): base("LearnMVC3"){   
+
+        }
 
         public DbSet<LearnMVC3.Model.Productions> Productions { get; set; }
         public DbSet<LearnMVC3.Model.Orders> Orders { get; set; }

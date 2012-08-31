@@ -1,10 +1,5 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Productions/f:Edit.cshtml" caret="88" fromTop="6" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:RequireAdminAttribute.cs" caret="1275" fromTop="30" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:AccountController.cs" caret="1129" fromTop="10" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ProductionsController.cs" caret="115" fromTop="0" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Customers.cs" caret="261" fromTop="12" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:ExpandoObjectConverter.cs" caret="268" fromTop="8" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Infrastructure/f:FormsAuthTokenStore.cs" caret="1135" fromTop="10" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Start/f:NinjectWebCommon.cs" caret="1959" fromTop="27" />
@@ -27,39 +22,45 @@
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Productions.cs" caret="801" fromTop="21" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Orders.cs" caret="586" fromTop="20" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Items.cs" caret="265" fromTop="7" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Models/f:LearnMVC3DBContext.cs" caret="976" fromTop="21" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="2812" fromTop="8" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:App.config" caret="682" fromTop="13" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:SubscriptionSpecs.cs" caret="0" fromTop="0" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ProductionSpecs.cs" caret="0" fromTop="0" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:AccountsControllerTests.cs" caret="370" fromTop="11" />
+    <File id="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1/d:Functionals/f:ShopifyTests.cs" caret="149" fromTop="6" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Models/f:LearnMVC3DBContext.cs" caret="166" fromTop="8" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="121" fromTop="0" />
   </RecentFiles>
   <RecentEdits>
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Orders.cs" caret="586" fromTop="18" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="3613" fromTop="31" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="3054" fromTop="18" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="2714" fromTop="21" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="2714" fromTop="18" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="1771" fromTop="19" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="1629" fromTop="25" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="1484" fromTop="22" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="1833" fromTop="33" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Productions.cs" caret="242" fromTop="11" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Orders.cs" caret="318" fromTop="13" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2919" fromTop="31" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ApplicationController.cs" caret="1599" fromTop="31" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1048" fromTop="24" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Items.cs" caret="143" fromTop="6" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="493" fromTop="3" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="705" fromTop="9" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1013" fromTop="24" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="818" fromTop="19" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2900" fromTop="24" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2813" fromTop="21" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2713" fromTop="25" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2224" fromTop="16" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Models/f:LearnMVC3DBContext.cs" caret="986" fromTop="21" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Items.cs" caret="440" fromTop="15" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="2031" fromTop="11" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:Items.cs" caret="265" fromTop="7" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="3228" fromTop="19" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1665" fromTop="12" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="1970" fromTop="16" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4556" fromTop="21" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4556" fromTop="12" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4556" fromTop="36" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4556" fromTop="37" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4230" fromTop="13" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4456" fromTop="19" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4558" fromTop="37" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4556" fromTop="33" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4556" fromTop="18" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4558" fromTop="25" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="5510" fromTop="18" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4764" fromTop="10" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="5123" fromTop="12" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="3617" fromTop="37" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="3568" fromTop="36" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="5768" fromTop="19" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:App.config" caret="627" fromTop="12" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:HomeController.cs" caret="1051" fromTop="15" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4556" fromTop="20" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="3801" fromTop="2" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="0" fromTop="0" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="117" fromTop="11" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="48" fromTop="1" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="1525" fromTop="21" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="2286" fromTop="21" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="2932" fromTop="22" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="4556" fromTop="15" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="907" fromTop="31" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="542" fromTop="21" />
+    <File id="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498/f:Program.cs" caret="170" fromTop="6" />
   </RecentEdits>
 </RecentFiles>
