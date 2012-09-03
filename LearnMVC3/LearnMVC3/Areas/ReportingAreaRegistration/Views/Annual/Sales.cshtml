@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+    @HTML.jQuery()
+    <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#salesTable').dataTable();
+        });
+    </script>
+    <head> Annual Sales</head>
+    <body>
+        <div>
+            <table id="salesTable">
+                <thead>
+                <tr>
+                    <th>Episode Title</th>
+                    <th>Production Title</th>
+                    <th>Price</th>
+                </tr>
+                </thead>
+                
+                <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th>@item.EpisodeTitle</th>
+                        <th>@item.ProductionTitle</th>
+                        <th>@item.Price</th>
+                    </tr>
+                }      
+                </tbody>                  
+                
+            </table>
+
+        </div>
+    </body>
+</html>

@@ -581,6 +581,12 @@ namespace LearnMVC3
 
         //Temporary holder for error messages
         public IList<string> Errors = new List<string>();
+
+        protected DynamicModel()
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Adds a record to the database. You can pass in an Anonymous object, an ExpandoObject,
         /// A regular old POCO, or a NameValueColletion from a Request.Form or Request.QueryString

@@ -688,3 +688,9 @@
 08/25/2012 17:25:46:   > Exception: Cannot perform runtime binding on a null reference 
 08/25/2012 17:26:01:   > Exception: Cannot perform runtime binding on a null reference 
 08/25/2012 17:26:01:   > Exception: Cannot perform runtime binding on a null reference 
+09/03/2012 17:33:00: Hey - I called the Home Page!!!!
+09/03/2012 17:33:00: Hey - I called the Home Page!!!!
+09/03/2012 17:58:40: Hey - I called the Home Page!!!!
+09/03/2012 17:58:40: Hey - I called the Home Page!!!!
+09/03/2012 17:58:41: Error DB: An error occurred while saving entities that do not expose foreign key properties for their relationships. The EntityEntries property will return null because a single entity cannot be identified as the source of the exception. Handling of exceptions while saving can be made easier by exposing foreign key properties in your entity types. See the InnerException for details.
+09/03/2012 17:58:41: Error DB: An error occurred while saving entities that do not expose foreign key properties for their relationships. The EntityEntries property will return null because a single entity cannot be identified as the source of the exception. Handling of exceptions while saving can be made easier by exposing foreign key properties in your entity types. See the InnerException for details.

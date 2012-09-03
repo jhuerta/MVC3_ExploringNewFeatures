@@ -18,7 +18,9 @@ namespace LearnMVC3.Models
         // 
         // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<LearnMVC3.Models.LearnMVC3DBContext>());
 
-        public LearnMVC3DBContext(): base("LearnMVC3"){   
+        public LearnMVC3DBContext()
+            : base("LearnMVC3")
+        {   
 
         }
 

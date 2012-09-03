@@ -13,36 +13,16 @@ namespace LearnMVC3.Tasks
     
     public class Program
     {
-        static void Main(string[] args)
+        public class DBFiller
         {
-            var db = new LearnMVC3DBContext();
+            private readonly DbSet<Productions> productions;
+            private readonly DbSet<Orders> orders;
+            private readonly LearnMVC3DBContext db;
 
-            var productions = db.Productions;
-            var orders = db.Orders;
+            private const int NumbreOfEpisodes = 10;
+            private const int NumberOfItems = 10;
 
-            db.Database.ExecuteSqlCommand("delete from episodes");
-            db.Database.ExecuteSqlCommand("delete from items");
-            db.Database.ExecuteSqlCommand("delete from orders");
-            db.Database.ExecuteSqlCommand("delete from productions");            
-
-
-            //productions.Delete();
-            //orders.Delete();
-
-
-
-            for (var i = 0; i < 500; i++)
-            {
-                var production = CreateNewProduction(GetListOrEpisode(GetRandomNumber(1, 10)));
-                var order = CreateNewOrder(GetListOrItems(GetRandomNumber(1, 10)));
-
-                productions.Add(production);
-                orders.Add(order);
-                db.SaveChanges();
-            }
-        }
-
-        static private readonly string[] productionTitles = {
+            static private readonly string[] productionTitles = {
                                                 "MVC 1: Basic Programming",
                                                 "MVC 2: The consolidation",
                                                 "MVC 3: Advance Programming",
@@ -51,7 +31,7 @@ namespace LearnMVC3.Tasks
                                                 "Inside Deep C#"
                                             };
 
-        static private readonly string[] episodesTitles = {
+            static private readonly string[] episodesTitles = {
                                                 "1 - The beggining",
                                                 "2. - Continuing what we started",
                                                 "3. - Things get interesting",
@@ -63,7 +43,7 @@ namespace LearnMVC3.Tasks
                                                 "C) Epilogue"
                                             };
 
-        static private readonly string[] itemTitles = {
+            static private readonly string[] itemTitles = {
                                                 "iPod",
                                                 "iPad",
                                                 "iPhone",
@@ -76,7 +56,7 @@ namespace LearnMVC3.Tasks
                                             };
 
 
-        static private readonly string[] emailList = {
+            static private readonly string[] emailList = {
                                                 "chuck@norris.com",
                                                 "silvester@stallone.com",
                                                 "arnold@swasenagger.com",
@@ -89,87 +69,138 @@ namespace LearnMVC3.Tasks
                                             };
 
 
-        private static int GetRandomNumber(int min, int max)
-        {
-            var rnd = new Random((int)DateTime.Now.Ticks & 0x0000FFFF);
-            return rnd.Next(min, max);
-        }
-        private static List<Episode> GetListOrEpisode(int number)
-        {
-            var episodeList = new List<Episode>();
-            for (int i = 0; i < number; i++)
+
+            public DBFiller(LearnMVC3DBContext dbContext)
             {
-                episodeList.Add(new Episode { Description = GetRandomValue(productionTitles), Title = GetRandomValue(productionTitles) });
+                db = dbContext;
+                productions = db.Productions;
+                orders = db.Orders;
             }
-            return episodeList;
 
-        }
-
-                
-        private static List<Items> GetListOrItems(int number)
-        {
-            var itemList = new List<Items>();
-            for (int i = 0; i < number; i++)
+            public void ClearTables()
             {
-                itemList.Add(item: CreateNewItem(GetRandomValue(itemTitles)));
+                ClearFullTable("episodes", db);
+                ClearFullTable("items", db);
+                ClearFullTable("orders", db);
+                ClearFullTable("productions", db);
             }
-            return itemList;
 
-        }
-
-
-
-
-
-        private static decimal GetRandomPrice()
-        {
-            var random = new Random((int)DateTime.Now.Ticks & 0x0000FFFF);
-            return (decimal) random.NextDouble()*100;
-        }
-        private static string GetRandomValue(string[] array)
-        {
-            var rnd = new Random((int)DateTime.Now.Ticks & 0x0000FFFF);
-            var index = rnd.Next(array.Count());
-            return array[index];
-        }
-        private static string GetDescription(string seed)
-        {
-            return "Description: " + seed;
-        }
-        private static Productions CreateNewProduction(List<Episode> episodes)
-        {
-            return new Productions()
+            private void ClearFullTable(string table, LearnMVC3DBContext dbContext)
             {
-                Description = GetDescription(GetRandomValue(episodesTitles)),
-                Title = GetRandomValue(episodesTitles),
-                Price = GetRandomPrice(),
-                Episodes = episodes
-            };
-        }
-        private static Orders CreateNewOrder(List<Items> orderItems)
-        {
-            return new Orders()
+                dbContext.Database.ExecuteSqlCommand(String.Format("delete from {0}", table));
+            }
+
+            public void FillDatabase(int numberOfTimes)
             {
-                Items = orderItems,
-                created_at = DateTime.Now,
-                email = GetRandomValue(emailList),
-                token = Guid.NewGuid().ToString(),
-                total_price = GetRandomPrice()
-            };
-        }
-        private static Items CreateNewItem(string name)
-        {
-            return new Items()
+                for (var i = 0; i < numberOfTimes; i++)
+                {
+                    var production = CreateNewProduction(GetListOfEpisode(GetRandomNumber(1, NumbreOfEpisodes)));
+                    var order = CreateNewOrder(GetListOrItems(GetRandomNumber(1, NumberOfItems)));
+
+                    productions.Add(production);
+                    orders.Add(order);
+
+                }
+            }
+
+            public void SaveChanges()
             {
-                grams = ((int)(new Random()).Next(1000, 10000)) / 100,
-                title = name,
-                product_id = Guid.NewGuid().ToString(),
-                price = (((new Random()).Next(2000, 20000)) / 100).ToString(),
-                quantity = (new Random()).Next(1, 20)
-            };
+                db.SaveChanges();
+            }
+
+
+            private static int GetRandomNumber(int min, int max)
+            {
+                var rnd = new Random();
+                //var rnd = new Random((int)DateTime.Now.Ticks & 0x0000FFFF);
+                return rnd.Next(min, max);
+            }
+
+            private static List<Episode> GetListOfEpisode(int number)
+            {
+                var episodeList = new List<Episode>();
+                for (int i = 0; i < number; i++)
+                {
+                    episodeList.Add(new Episode { Description = GetRandomValue(productionTitles), Title = GetRandomValue(productionTitles) });
+                }
+                return episodeList;
+
+            }
+
+            private static List<Items> GetListOrItems(int number)
+            {
+                var itemList = new List<Items>();
+                for (int i = 0; i < number; i++)
+                {
+                    itemList.Add(item: CreateNewItem(GetRandomValue(itemTitles)));
+                }
+                return itemList;
+
+            }
+
+            private static decimal GetRandomPrice()
+            {
+                //var random = new Random((int)DateTime.Now.Ticks & 0x0000FFFF);
+                var random = new Random();
+                return (decimal)random.NextDouble() * 100;
+            }
+
+            private static string GetRandomValue(string[] array)
+            {
+                var rnd = new Random();
+                //var rnd = new Random((int)DateTime.Now.Ticks & 0x0000FFFF);
+                var index = rnd.Next(array.Count());
+                return array[index];
+            }
+
+            private static string GetDescription(string seed)
+            {
+                return "Description: " + seed;
+            }
+
+            private static Productions CreateNewProduction(List<Episode> episodes)
+            {
+                return new Productions()
+                {
+                    Description = GetDescription(GetRandomValue(episodesTitles)),
+                    Title = GetRandomValue(episodesTitles),
+                    Price = GetRandomPrice(),
+                    Episodes = episodes
+                };
+            }
+            private static Orders CreateNewOrder(List<Items> orderItems)
+            {
+                return new Orders()
+                {
+                    Items = orderItems,
+                    created_at = DateTime.Now,
+                    email = GetRandomValue(emailList),
+                    token = Guid.NewGuid().ToString(),
+                    total_price = GetRandomPrice()
+                };
+            }
+            private static Items CreateNewItem(string name)
+            {
+                return new Items()
+                {
+                    grams = ((int)(new Random()).Next(1000, 10000)) / 100,
+                    title = name,
+                    product_id = Guid.NewGuid().ToString(),
+                    price = (((new Random()).Next(2000, 20000)) / 100).ToString(),
+                    quantity = (new Random()).Next(1, 20)
+                };
+            }
+
         }
+        static void Main(string[] args)
+        {
+            var tableFiller = new DBFiller(new LearnMVC3DBContext());
 
+            tableFiller.ClearTables();
 
+            tableFiller.FillDatabase(100);
 
+            tableFiller.SaveChanges();
+        }
     }
 }
