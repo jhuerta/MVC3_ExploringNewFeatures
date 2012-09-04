@@ -3,9 +3,12 @@ C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\LearnM
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\LearnMVC3.Tasks.exe
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\LearnMVC3.Tasks.pdb
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\App_Data\Users_Dev.sdf
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\Web.config
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\Web.Debug.config
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\Web.Release.config
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\NLog.config
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\Areas\ReportingAreaRegistration\Views\Web.config
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\App_Data\LearnMVC3DBContext_Test.sdf
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\App_Data\Users_Test.sdf
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\App.config
@@ -26,9 +29,6 @@ D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Deb
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\Ninject.pdb
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\Ninject.xml
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\NLog.xml
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\LearnMVC3.Tasks.exe
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\obj\x86\Debug\LearnMVC3.Tasks.pdb
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\Areas\ReportingAreaRegistration\Views\Web.config
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\Web.config
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\Web.Debug.config
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tasks\bin\Debug\Web.Release.config

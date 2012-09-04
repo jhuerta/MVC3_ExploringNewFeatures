@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="LearnMVC3.Models.LearnMVC3DBContextModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="LearnMVC3ModelsLearnMVC3DBContextModelStoreContainer">
+          <EntitySet Name="__MigrationHistory" EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Store.__MigrationHistory" store:Type="Tables" />
+          <EntitySet Name="Episodes" EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Store.Episodes" store:Type="Tables" />
+          <EntitySet Name="Items" EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Store.Items" store:Type="Tables" />
+          <EntitySet Name="Orders" EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Store.Orders" store:Type="Tables" />
+          <EntitySet Name="Productions" EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Store.Productions" store:Type="Tables" />
+          <AssociationSet Name="FK_Episodes_Productions_Productions_ID" Association="LearnMVC3.Models.LearnMVC3DBContextModel.Store.FK_Episodes_Productions_Productions_ID">
+            <End Role="Productions" EntitySet="Productions" />
+            <End Role="Episodes" EntitySet="Episodes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Items_Orders_Orders_ID" Association="LearnMVC3.Models.LearnMVC3DBContextModel.Store.FK_Items_Orders_Orders_ID">
+            <End Role="Orders" EntitySet="Orders" />
+            <End Role="Items" EntitySet="Items" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="__MigrationHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+          </Key>
+          <Property Name="MigrationId" Type="nvarchar" Nullable="false" MaxLength="255" />
+          <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+          <Property Name="Model" Type="image" Nullable="false" />
+          <Property Name="ProductVersion" Type="nvarchar" Nullable="false" MaxLength="32" />
+        </EntityType>
+        <EntityType Name="Episodes">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="nvarchar" />
+          <Property Name="Description" Type="nvarchar" />
+          <Property Name="ProductionID" Type="nvarchar" />
+          <Property Name="Productions_ID" Type="int" />
+        </EntityType>
+        <EntityType Name="Items">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="grams" Type="int" Nullable="false" />
+          <Property Name="price" Type="nvarchar" />
+          <Property Name="product_id" Type="nvarchar" />
+          <Property Name="quantity" Type="int" Nullable="false" />
+          <Property Name="title" Type="nvarchar" />
+          <Property Name="OrderID" Type="nvarchar" />
+          <Property Name="DescriptorField" Type="nvarchar" />
+          <Property Name="PrimaryKeyField" Type="nvarchar" />
+          <Property Name="TableName" Type="nvarchar" />
+          <Property Name="Orders_ID" Type="int" />
+        </EntityType>
+        <EntityType Name="Orders">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="email" Type="nvarchar" />
+          <Property Name="token" Type="nvarchar" />
+          <Property Name="total_price" Type="numeric" Nullable="false" Scale="2" />
+          <Property Name="created_at" Type="datetime" Nullable="false" />
+          <Property Name="DescriptorField" Type="nvarchar" />
+          <Property Name="PrimaryKeyField" Type="nvarchar" />
+          <Property Name="TableName" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="Productions">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="400" />
+          <Property Name="Description" Type="nvarchar" />
+          <Property Name="Price" Type="numeric" Nullable="false" Scale="2" />
+          <Property Name="OldPrice" Type="numeric" Nullable="false" Scale="2" />
+        </EntityType>
+        <Association Name="FK_Episodes_Productions_Productions_ID">
+          <End Role="Productions" Type="LearnMVC3.Models.LearnMVC3DBContextModel.Store.Productions" Multiplicity="0..1" />
+          <End Role="Episodes" Type="LearnMVC3.Models.LearnMVC3DBContextModel.Store.Episodes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productions">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Episodes">
+              <PropertyRef Name="Productions_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Items_Orders_Orders_ID">
+          <End Role="Orders" Type="LearnMVC3.Models.LearnMVC3DBContextModel.Store.Orders" Multiplicity="0..1" />
+          <End Role="Items" Type="LearnMVC3.Models.LearnMVC3DBContextModel.Store.Items" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Orders">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Items">
+              <PropertyRef Name="Orders_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LearnMVC3.Models.LearnMVC3DBContextModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="LearnMVC3Entity" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="C__MigrationHistory" EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.C__MigrationHistory" />
+          <EntitySet Name="Episodes" EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Episode" />
+          <EntitySet Name="Items" EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Item" />
+          <EntitySet Name="Orders" EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Order" />
+          <EntitySet Name="Productions" EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Production" />
+          <AssociationSet Name="FK_Episodes_Productions_Productions_ID" Association="LearnMVC3.Models.LearnMVC3DBContextModel.FK_Episodes_Productions_Productions_ID">
+            <End Role="Productions" EntitySet="Productions" />
+            <End Role="Episodes" EntitySet="Episodes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Items_Orders_Orders_ID" Association="LearnMVC3.Models.LearnMVC3DBContextModel.FK_Items_Orders_Orders_ID">
+            <End Role="Orders" EntitySet="Orders" />
+            <End Role="Items" EntitySet="Items" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="C__MigrationHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+          </Key>
+          <Property Name="MigrationId" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" />
+          <Property Name="Model" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+          <Property Name="ProductVersion" Type="String" Nullable="false" MaxLength="32" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Episode">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="Description" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ProductionID" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="Productions_ID" Type="Int32" />
+          <NavigationProperty Name="Production" Relationship="LearnMVC3.Models.LearnMVC3DBContextModel.FK_Episodes_Productions_Productions_ID" FromRole="Episodes" ToRole="Productions" />
+        </EntityType>
+        <EntityType Name="Item">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="grams" Type="Int32" Nullable="false" />
+          <Property Name="price" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="product_id" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="quantity" Type="Int32" Nullable="false" />
+          <Property Name="title" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="OrderID" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="DescriptorField" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="PrimaryKeyField" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="TableName" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="Orders_ID" Type="Int32" />
+          <NavigationProperty Name="Order" Relationship="LearnMVC3.Models.LearnMVC3DBContextModel.FK_Items_Orders_Orders_ID" FromRole="Items" ToRole="Orders" />
+        </EntityType>
+        <EntityType Name="Order">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="email" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="token" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="total_price" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="created_at" Type="DateTime" Nullable="false" />
+          <Property Name="DescriptorField" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="PrimaryKeyField" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="TableName" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Items" Relationship="LearnMVC3.Models.LearnMVC3DBContextModel.FK_Items_Orders_Orders_ID" FromRole="Orders" ToRole="Items" />
+        </EntityType>
+        <EntityType Name="Production">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" Nullable="false" MaxLength="400" Unicode="true" FixedLength="false" />
+          <Property Name="Description" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="Price" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="OldPrice" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <NavigationProperty Name="Episodes" Relationship="LearnMVC3.Models.LearnMVC3DBContextModel.FK_Episodes_Productions_Productions_ID" FromRole="Productions" ToRole="Episodes" />
+        </EntityType>
+        <Association Name="FK_Episodes_Productions_Productions_ID">
+          <End Role="Productions" Type="LearnMVC3.Models.LearnMVC3DBContextModel.Production" Multiplicity="0..1" />
+          <End Role="Episodes" Type="LearnMVC3.Models.LearnMVC3DBContextModel.Episode" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productions">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Episodes">
+              <PropertyRef Name="Productions_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Items_Orders_Orders_ID">
+          <End Role="Orders" Type="LearnMVC3.Models.LearnMVC3DBContextModel.Order" Multiplicity="0..1" />
+          <End Role="Items" Type="LearnMVC3.Models.LearnMVC3DBContextModel.Item" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Orders">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Items">
+              <PropertyRef Name="Orders_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LearnMVC3ModelsLearnMVC3DBContextModelStoreContainer" CdmEntityContainer="LearnMVC3Entity">
+          <EntitySetMapping Name="C__MigrationHistory"><EntityTypeMapping TypeName="LearnMVC3.Models.LearnMVC3DBContextModel.C__MigrationHistory"><MappingFragment StoreEntitySet="__MigrationHistory">
+            <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+            <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+            <ScalarProperty Name="Model" ColumnName="Model" />
+            <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Episodes"><EntityTypeMapping TypeName="LearnMVC3.Models.LearnMVC3DBContextModel.Episode"><MappingFragment StoreEntitySet="Episodes">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Title" ColumnName="Title" />
+            <ScalarProperty Name="Description" ColumnName="Description" />
+            <ScalarProperty Name="ProductionID" ColumnName="ProductionID" />
+            <ScalarProperty Name="Productions_ID" ColumnName="Productions_ID" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Items"><EntityTypeMapping TypeName="LearnMVC3.Models.LearnMVC3DBContextModel.Item"><MappingFragment StoreEntitySet="Items">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="grams" ColumnName="grams" />
+            <ScalarProperty Name="price" ColumnName="price" />
+            <ScalarProperty Name="product_id" ColumnName="product_id" />
+            <ScalarProperty Name="quantity" ColumnName="quantity" />
+            <ScalarProperty Name="title" ColumnName="title" />
+            <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+            <ScalarProperty Name="DescriptorField" ColumnName="DescriptorField" />
+            <ScalarProperty Name="PrimaryKeyField" ColumnName="PrimaryKeyField" />
+            <ScalarProperty Name="TableName" ColumnName="TableName" />
+            <ScalarProperty Name="Orders_ID" ColumnName="Orders_ID" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Orders"><EntityTypeMapping TypeName="LearnMVC3.Models.LearnMVC3DBContextModel.Order"><MappingFragment StoreEntitySet="Orders">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="email" ColumnName="email" />
+            <ScalarProperty Name="token" ColumnName="token" />
+            <ScalarProperty Name="total_price" ColumnName="total_price" />
+            <ScalarProperty Name="created_at" ColumnName="created_at" />
+            <ScalarProperty Name="DescriptorField" ColumnName="DescriptorField" />
+            <ScalarProperty Name="PrimaryKeyField" ColumnName="PrimaryKeyField" />
+            <ScalarProperty Name="TableName" ColumnName="TableName" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Productions"><EntityTypeMapping TypeName="LearnMVC3.Models.LearnMVC3DBContextModel.Production"><MappingFragment StoreEntitySet="Productions">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Title" ColumnName="Title" />
+            <ScalarProperty Name="Description" ColumnName="Description" />
+            <ScalarProperty Name="Price" ColumnName="Price" />
+            <ScalarProperty Name="OldPrice" ColumnName="OldPrice" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="LearnMVC3">
+        <EntityTypeShape EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="0.75" Height="1.7879850260416672" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Episode" Width="1.5" PointX="3" PointY="0.875" Height="2.1725878906249996" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Item" Width="1.5" PointX="3" PointY="5" Height="3.3263964843749996" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Order" Width="1.5" PointX="0.75" PointY="5.25" Height="2.7494921874999987" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearnMVC3.Models.LearnMVC3DBContextModel.Production" Width="1.5" PointX="0.75" PointY="0.875" Height="2.1725878906249996" IsExpanded="true" />
+        <AssociationConnector Association="LearnMVC3.Models.LearnMVC3DBContextModel.FK_Episodes_Productions_Productions_ID" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="1.9612939453124998" />
+          <ConnectorPoint PointX="3" PointY="1.9612939453124998" />
+        </AssociationConnector>
+        <AssociationConnector Association="LearnMVC3.Models.LearnMVC3DBContextModel.FK_Items_Orders_Orders_ID" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="6.62474609375" />
+          <ConnectorPoint PointX="3" PointY="6.62474609375" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

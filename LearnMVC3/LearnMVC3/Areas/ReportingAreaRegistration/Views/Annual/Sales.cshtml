@@ -13,6 +13,34 @@
         <div>
             <table id="salesTable">
                 <thead>
+                    <tr>
+                        <th>Episode Title</th>
+                        <th>Production Title</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th>@item.EpisodeTitle</th>
+                            <th>@item.ProductionTitle</th>
+                            <th>@item.Price</th>
+                        </tr>
+                    }      
+                </tbody>                  
+                
+            </table>
+
+        </div>
+        
+        <br/>
+        <br/>
+        <br/>
+        <div>
+            <table id="noFormattedsalesTable">
+                <thead>
                 <tr>
                     <th>Episode Title</th>
                     <th>Production Title</th>
@@ -34,5 +62,6 @@
             </table>
 
         </div>
+
     </body>
 </html>

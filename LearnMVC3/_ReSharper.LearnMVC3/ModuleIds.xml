@@ -2,4 +2,6 @@
   <Module PersistentId="66492A42-C726-4FEE-87C6-2EF96A4AA841" ModuleId="LearnMVC3" />
   <Module PersistentId="7FEB6813-F6E5-4F54-8E3A-8ADB7DB95498" ModuleId="LearnMVC3.Tasks" />
   <Module PersistentId="853D2045-2E8F-4720-B9BC-F00BE9FFA9F1" ModuleId="LearnMVC3.Tests" />
+  <Module PersistentId="4DC0A42D-4254-45D9-BEE4-883170567EA7" ModuleId="LearnMVC3.UITesting" />
+  <Module PersistentId="19279F45-6F23-4ECB-8790-AF17A00C5C8B" ModuleId="LearnMVC3.DynamicData" />
 </Modules>

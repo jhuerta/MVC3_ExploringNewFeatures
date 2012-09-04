@@ -25,7 +25,11 @@ C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\obj\Debug\ResolveAssem
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\obj\Debug\LearnMVC3.dll
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3\obj\Debug\LearnMVC3.pdb
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\App_Data\Users_Dev.sdf
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\Web.config
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\Web.Debug.config
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\Web.Release.config
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\NLog.config
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\Areas\ReportingAreaRegistration\Views\Web.config
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\LearnMVC3.dll
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\LearnMVC3.pdb
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\EntityFramework.dll
@@ -50,7 +54,3 @@ D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\NLog.xml
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\obj\Debug\ResolveAssemblyReference.cache
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\obj\Debug\LearnMVC3.dll
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\obj\Debug\LearnMVC3.pdb
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\Areas\ReportingAreaRegistration\Views\Web.config
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\Web.config
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\Web.Debug.config
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3\bin\Web.Release.config

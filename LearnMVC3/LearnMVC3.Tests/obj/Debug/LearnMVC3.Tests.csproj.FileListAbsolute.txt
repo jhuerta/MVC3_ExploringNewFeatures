@@ -29,7 +29,11 @@ C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\Resolv
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\LearnMVC3.Tests.dll
 C:\MyStuff\WebDev\Dropbox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\LearnMVC3.Tests.pdb
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\App_Data\Users_Dev.sdf
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Web.config
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Web.Debug.config
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Web.Release.config
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\NLog.config
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Areas\ReportingAreaRegistration\Views\Web.config
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\App_Data\LearnMVC3DBContext_Test.sdf
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\App_Data\Users_Test.sdf
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Functionals\ShopifyPing.js
@@ -58,7 +62,3 @@ D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Deb
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\ResolveAssemblyReference.cache
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\LearnMVC3.Tests.dll
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\LearnMVC3.Tests.pdb
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Areas\ReportingAreaRegistration\Views\Web.config
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Web.config
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Web.Debug.config
-D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Web.Release.config
