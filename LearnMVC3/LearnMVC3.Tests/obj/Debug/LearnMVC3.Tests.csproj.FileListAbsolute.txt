@@ -62,3 +62,7 @@ D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Deb
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\ResolveAssemblyReference.cache
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\LearnMVC3.Tests.dll
 D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\obj\Debug\LearnMVC3.Tests.pdb
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Views\Shared\Error.cshtml
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Views\Shared\_LogOnPartial.cshtml
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Views\Shared\_Layout.cshtml
+D:\MyStuff\Personal\WebDev\DropBox\Tekpub_MVC3\LearnMVC3\LearnMVC3.Tests\bin\Debug\Views\Shared\_AdminLayout.cshtml

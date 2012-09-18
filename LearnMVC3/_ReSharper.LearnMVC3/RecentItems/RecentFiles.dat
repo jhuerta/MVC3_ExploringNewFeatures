@@ -1,7 +1,5 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:CustomersV2Controller.cs" caret="180" fromTop="6" />
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Controllers/f:ApplicationController.cs" caret="367" fromTop="5" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ProductionsController.cs" caret="282" fromTop="0" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:Api/d:Controllers/f:ShopifyController.cs" caret="0" fromTop="0" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Model/f:EpisodesV2.cs" caret="240" fromTop="9" />
@@ -29,10 +27,11 @@
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Code/f:Quotes.cshtml" caret="103" fromTop="5" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:App_Code/f:Form.cshtml" caret="89" fromTop="3" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:ReportingAreaRegistration/d:Views/d:Annual/f:Sales.cshtml" caret="758" fromTop="18" />
-    <File id="19279F45-6F23-4ECB-8790-AF17A00C5C8B/f:Global.asax.cs" caret="853" fromTop="7" />
+    <File id="19279F45-6F23-4ECB-8790-AF17A00C5C8B/f:Global.asax.cs" caret="1375" fromTop="14" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:CustomersV2/f:Index.cshtml" caret="243" fromTop="16" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:Index.cshtml" caret="345" fromTop="13" />
   </RecentFiles>
   <RecentEdits>
-    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:ReportingAreaRegistration/d:Views/d:Annual/f:Sales.cshtml" caret="429" fromTop="4" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:ReportingAreaRegistration/d:Views/d:Annual/f:Sales.cshtml" caret="176" fromTop="3" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:ReportingAreaRegistration/d:Views/d:Annual/f:Sales.cshtml" caret="854" fromTop="16" />
     <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Areas/d:ReportingAreaRegistration/d:Views/d:Annual/f:Sales.cshtml" caret="1210" fromTop="25" />
@@ -62,5 +61,6 @@
     <File id="4DC0A42D-4254-45D9-BEE4-883170567EA7/f:Program.cs" caret="1378" fromTop="23" />
     <File id="19279F45-6F23-4ECB-8790-AF17A00C5C8B/f:web.config" caret="1329" fromTop="18" />
     <File id="19279F45-6F23-4ECB-8790-AF17A00C5C8B/f:Global.asax.cs" caret="1280" fromTop="12" />
+    <File id="66492A42-C726-4FEE-87C6-2EF96A4AA841/d:Views/d:Home/f:Index.cshtml" caret="215" fromTop="11" />
   </RecentEdits>
 </RecentFiles>
